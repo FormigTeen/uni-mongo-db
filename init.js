@@ -1617,6 +1617,1503 @@ const places = [
     }
 ];
 
+const purchase_orders = [
+  {
+    supplier_code: 3001,
+    product_ean: "7891001234578",
+    sold_at: "2023-10-01T12:00:00",
+    expired_at: "2024-03-01T12:00:00",
+    quantity: 80,
+    price_by_unit: 15
+  },
+  {
+    supplier_code: 3002,
+    product_ean: "7891001234611",
+    sold_at: "2023-09-15T14:30:00",
+    expired_at: "2024-02-15T14:30:00",
+    quantity: 50,
+    price_by_unit: 12
+  },
+  {
+    supplier_code: 3003,
+    product_ean: "7891001234644",
+    sold_at: "2023-08-10T09:00:00",
+    expired_at: "2024-01-10T09:00:00",
+    quantity: 120,
+    price_by_unit: 25
+  },
+  {
+    supplier_code: 3004,
+    product_ean: "7891001234666",
+    sold_at: "2023-07-20T11:45:00",
+    expired_at: "2024-01-20T11:45:00",
+    quantity: 95,
+    price_by_unit: 20
+  },
+  {
+    supplier_code: 3005,
+    product_ean: "7891001234581",
+    sold_at: "2023-06-05T10:30:00",
+    expired_at: "2024-01-05T10:30:00",
+    quantity: 110,
+    price_by_unit: 19
+  },
+  {
+    supplier_code: 3006,
+    product_ean: "7891001234656",
+    sold_at: "2023-08-01T15:00:00",
+    expired_at: "2024-02-01T15:00:00",
+    quantity: 130,
+    price_by_unit: 16
+  },
+  {
+    supplier_code: 3007,
+    product_ean: "7891001234711",
+    sold_at: "2023-09-12T12:15:00",
+    expired_at: "2024-03-12T12:15:00",
+    quantity: 75,
+    price_by_unit: 18
+  },
+  {
+    supplier_code: 3008,
+    product_ean: "7891001234767",
+    sold_at: "2023-07-25T14:45:00",
+    expired_at: "2024-02-25T14:45:00",
+    quantity: 200,
+    price_by_unit: 10
+  },
+  {
+    supplier_code: 3009,
+    product_ean: "7891001234616",
+    sold_at: "2023-06-15T10:00:00",
+    expired_at: "2024-01-15T10:00:00",
+    quantity: 140,
+    price_by_unit: 13
+  },
+  {
+    supplier_code: 3010,
+    product_ean: "7891001234654",
+    sold_at: "2023-11-05T13:30:00",
+    expired_at: "2024-05-05T13:30:00",
+    quantity: 170,
+    price_by_unit: 22
+  },
+  {
+    supplier_code: 3001,
+    product_ean: "7891001234600",
+    sold_at: "2023-09-10T15:45:00",
+    expired_at: "2024-03-10T15:45:00",
+    quantity: 90,
+    price_by_unit: 14
+  },
+  {
+    supplier_code: 3002,
+    product_ean: "7891001234686",
+    sold_at: "2023-07-20T08:30:00",
+    expired_at: "2024-01-20T08:30:00",
+    quantity: 150,
+    price_by_unit: 17
+  },
+  {
+    supplier_code: 3003,
+    product_ean: "7891001234776",
+    sold_at: "2023-06-25T14:00:00",
+    expired_at: "2024-02-25T14:00:00",
+    quantity: 80,
+    price_by_unit: 20
+  },
+  {
+    supplier_code: 3004,
+    product_ean: "7891001234651",
+    sold_at: "2023-08-15T11:00:00",
+    expired_at: "2024-02-15T11:00:00",
+    quantity: 60,
+    price_by_unit: 23
+  },
+  {
+    supplier_code: 3005,
+    product_ean: "7891001234626",
+    sold_at: "2023-10-01T09:45:00",
+    expired_at: "2024-04-01T09:45:00",
+    quantity: 50,
+    price_by_unit: 16
+  },
+  {
+    supplier_code: 3006,
+    product_ean: "7891001234665",
+    sold_at: "2023-09-05T12:15:00",
+    expired_at: "2024-03-05T12:15:00",
+    quantity: 200,
+    price_by_unit: 15
+  },
+  {
+    supplier_code: 3007,
+    product_ean: "7891001234591",
+    sold_at: "2023-06-10T10:30:00",
+    expired_at: "2024-01-10T10:30:00",
+    quantity: 100,
+    price_by_unit: 12
+  },
+  {
+    supplier_code: 3008,
+    product_ean: "7891001234610",
+    sold_at: "2023-08-30T14:45:00",
+    expired_at: "2024-02-28T14:45:00",
+    quantity: 75,
+    price_by_unit: 19
+  },
+  {
+    supplier_code: 3009,
+    product_ean: "7891001234721",
+    sold_at: "2023-07-05T11:00:00",
+    expired_at: "2024-01-05T11:00:00",
+    quantity: 120,
+    price_by_unit: 11
+  },
+  {
+    supplier_code: 3010,
+    product_ean: "7891001234769",
+    sold_at: "2023-10-20T13:15:00",
+    expired_at: "2024-04-20T13:15:00",
+    quantity: 60,
+    price_by_unit: 18
+  },
+  {
+    supplier_code: 3001,
+    product_ean: "7891001234644",
+    sold_at: "2023-09-25T15:30:00",
+    expired_at: "2024-03-25T15:30:00",
+    quantity: 90,
+    price_by_unit: 14
+  },
+  {
+    supplier_code: 3002,
+    product_ean: "7891001234771",
+    sold_at: "2023-08-15T11:45:00",
+    expired_at: "2024-02-15T11:45:00",
+    quantity: 170,
+    price_by_unit: 21
+  },
+  {
+    supplier_code: 3003,
+    product_ean: "7891001234589",
+    sold_at: "2023-07-30T10:15:00",
+    expired_at: "2024-01-30T10:15:00",
+    quantity: 140,
+    price_by_unit: 17
+  },
+  {
+    supplier_code: 3004,
+    product_ean: "7891001234656",
+    sold_at: "2023-06-20T09:30:00",
+    expired_at: "2024-01-20T09:30:00",
+    quantity: 80,
+    price_by_unit: 12
+  },
+  {
+    supplier_code: 3005,
+    product_ean: "7891001234671",
+    sold_at: "2023-08-10T15:00:00",
+    expired_at: "2024-02-10T15:00:00",
+    quantity: 60,
+    price_by_unit: 13
+  },
+  {
+    supplier_code: 3006,
+    product_ean: "7891001234642",
+    sold_at: "2023-09-01T08:45:00",
+    expired_at: "2024-03-01T08:45:00",
+    quantity: 75,
+    price_by_unit: 22
+  },
+  {
+    supplier_code: 3007,
+    product_ean: "7891001234678",
+    sold_at: "2023-07-15T13:30:00",
+    expired_at: "2024-01-15T13:30:00",
+    quantity: 150,
+    price_by_unit: 25
+  },
+  {
+    supplier_code: 3008,
+    product_ean: "7891001234796",
+    sold_at: "2023-06-05T12:00:00",
+    expired_at: "2024-02-05T12:00:00",
+    quantity: 90,
+    price_by_unit: 16
+  },
+  {
+    supplier_code: 3009,
+    product_ean: "7891001234614",
+    sold_at: "2023-08-01T14:15:00",
+    expired_at: "2024-02-01T14:15:00",
+    quantity: 80,
+    price_by_unit: 19
+  },
+  {
+    supplier_code: 3010,
+    product_ean: "7891001234720",
+    sold_at: "2023-09-12T10:30:00",
+    expired_at: "2024-03-12T10:30:00",
+    quantity: 140,
+    price_by_unit: 11
+  },
+  {
+    supplier_code: 3001,
+    product_ean: "7891001234627",
+    sold_at: "2023-07-01T15:00:00",
+    expired_at: "2024-01-01T15:00:00",
+    quantity: 60,
+    price_by_unit: 17
+  },
+  {
+    supplier_code: 3002,
+    product_ean: "7891001234658",
+    sold_at: "2023-08-25T08:45:00",
+    expired_at: "2024-02-25T08:45:00",
+    quantity: 100,
+    price_by_unit: 10
+  },
+  {
+    supplier_code: 3003,
+    product_ean: "7891001234749",
+    sold_at: "2023-10-20T14:30:00",
+    expired_at: "2024-04-20T14:30:00",
+    quantity: 50,
+    price_by_unit: 14
+  },
+  {
+    supplier_code: 3004,
+    product_ean: "7891001234696",
+    sold_at: "2023-06-15T12:15:00",
+    expired_at: "2024-02-15T12:15:00",
+    quantity: 120,
+    price_by_unit: 15
+  },
+  {
+    supplier_code: 3005,
+    product_ean: "7891001234581",
+    sold_at: "2023-09-05T09:30:00",
+    expired_at: "2024-03-05T09:30:00",
+    quantity: 90,
+    price_by_unit: 13
+  },
+  {
+    supplier_code: 3006,
+    product_ean: "7891001234659",
+    sold_at: "2023-08-10T11:15:00",
+    expired_at: "2024-02-10T11:15:00",
+    quantity: 140,
+    price_by_unit: 21
+  },
+  {
+    supplier_code: 3007,
+    product_ean: "7891001234781",
+    sold_at: "2023-07-20T13:00:00",
+    expired_at: "2024-01-20T13:00:00",
+    quantity: 75,
+    price_by_unit: 18
+  },
+  {
+    supplier_code: 3008,
+    product_ean: "7891001234731",
+    sold_at: "2023-09-25T15:30:00",
+    expired_at: "2024-03-25T15:30:00",
+    quantity: 170,
+    price_by_unit: 20
+  },
+  {
+    supplier_code: 3009,
+    product_ean: "7891001234665",
+    sold_at: "2023-10-15T14:00:00",
+    expired_at: "2024-04-15T14:00:00",
+    quantity: 50,
+    price_by_unit: 23
+  },
+  {
+    supplier_code: 3010,
+    product_ean: "7891001234770",
+    sold_at: "2023-08-01T12:30:00",
+    expired_at: "2024-02-01T12:30:00",
+    quantity: 60,
+    price_by_unit: 16
+  },
+  {
+    supplier_code: 3001,
+    product_ean: "7891001234599",
+    sold_at: "2023-09-05T15:45:00",
+    expired_at: "2024-03-05T15:45:00",
+    quantity: 140,
+    price_by_unit: 19
+  },
+  {
+    supplier_code: 3002,
+    product_ean: "7891001234716",
+    sold_at: "2023-07-15T14:15:00",
+    expired_at: "2024-01-15T14:15:00",
+    quantity: 200,
+    price_by_unit: 10
+  },
+  {
+    supplier_code: 3003,
+    product_ean: "7891001234611",
+    sold_at: "2023-06-01T10:30:00",
+    expired_at: "2024-02-01T10:30:00",
+    quantity: 90,
+    price_by_unit: 13
+  },
+  {
+    supplier_code: 3004,
+    product_ean: "7891001234696",
+    sold_at: "2023-10-20T09:45:00",
+    expired_at: "2024-04-20T09:45:00",
+    quantity: 50,
+    price_by_unit: 15
+  },
+  {
+    supplier_code: 3005,
+    product_ean: "7891001234677",
+    sold_at: "2023-08-25T12:15:00",
+    expired_at: "2024-02-25T12:15:00",
+    quantity: 140,
+    price_by_unit: 14
+  },
+  {
+    supplier_code: 3006,
+    product_ean: "7891001234651",
+    sold_at: "2023-07-10T11:30:00",
+    expired_at: "2024-01-10T11:30:00",
+    quantity: 75,
+    price_by_unit: 22
+  },
+  {
+    supplier_code: 3007,
+    product_ean: "7891001234665",
+    sold_at: "2023-09-12T14:45:00",
+    expired_at: "2024-03-12T14:45:00",
+    quantity: 120,
+    price_by_unit: 12
+  },
+  {
+    supplier_code: 3008,
+    product_ean: "7891001234686",
+    sold_at: "2023-06-15T15:30:00",
+    expired_at: "2024-02-15T15:30:00",
+    quantity: 60,
+    price_by_unit: 20
+  },
+  {
+    supplier_code: 3009,
+    product_ean: "7891001234746",
+    sold_at: "2023-08-01T10:15:00",
+    expired_at: "2024-02-01T10:15:00",
+    quantity: 75,
+    price_by_unit: 18
+  },
+  {
+    supplier_code: 3010,
+    product_ean: "7891001234626",
+    sold_at: "2023-09-10T13:30:00",
+    expired_at: "2024-03-10T13:30:00",
+    quantity: 200,
+    price_by_unit: 14
+  },
+  {
+    supplier_code: 3001,
+    product_ean: "7891001234766",
+    sold_at: "2023-10-05T09:00:00",
+    expired_at: "2024-04-05T09:00:00",
+    quantity: 90,
+    price_by_unit: 16
+  },
+  {
+    supplier_code: 3002,
+    product_ean: "7891001234677",
+    sold_at: "2023-07-20T12:45:00",
+    expired_at: "2024-01-20T12:45:00",
+    quantity: 140,
+    price_by_unit: 11
+  },
+  {
+    supplier_code: 3003,
+    product_ean: "7891001234716",
+    sold_at: "2023-08-30T14:00:00",
+    expired_at: "2024-02-28T14:00:00",
+    quantity: 80,
+    price_by_unit: 25
+  },
+  {
+    supplier_code: 3004,
+    product_ean: "7891001234744",
+    sold_at: "2023-09-12T11:15:00",
+    expired_at: "2024-03-12T11:15:00",
+    quantity: 60,
+    price_by_unit: 17
+  },
+  {
+    supplier_code: 3005,
+    product_ean: "7891001234609",
+    sold_at: "2023-07-05T13:30:00",
+    expired_at: "2024-01-05T13:30:00",
+    quantity: 75,
+    price_by_unit: 18
+  },
+  {
+    supplier_code: 3006,
+    product_ean: "7891001234711",
+    sold_at: "2023-08-20T14:45:00",
+    expired_at: "2024-02-20T14:45:00",
+    quantity: 90,
+    price_by_unit: 13
+  },
+  {
+    supplier_code: 3007,
+    product_ean: "7891001234776",
+    sold_at: "2023-10-01T12:30:00",
+    expired_at: "2024-04-01T12:30:00",
+    quantity: 60,
+    price_by_unit: 21
+  },
+  {
+    supplier_code: 3008,
+    product_ean: "7891001234788",
+    sold_at: "2023-06-15T10:15:00",
+    expired_at: "2024-02-15T10:15:00",
+    quantity: 170,
+    price_by_unit: 14
+  },
+  {
+    supplier_code: 3009,
+    product_ean: "7891001234581",
+    sold_at: "2023-09-20T11:30:00",
+    expired_at: "2024-03-20T11:30:00",
+    quantity: 140,
+    price_by_unit: 16
+  },
+  {
+    supplier_code: 3010,
+    product_ean: "7891001234765",
+    sold_at: "2023-07-01T15:00:00",
+    expired_at: "2024-01-01T15:00:00",
+    quantity: 200,
+    price_by_unit: 10
+  },
+  {
+    supplier_code: 3001,
+    product_ean: "7891001234696",
+    sold_at: "2023-11-10T10:00:00",
+    expired_at: "2024-05-10T10:00:00",
+    quantity: 120,
+    price_by_unit: 18
+  },
+  {
+    supplier_code: 3002,
+    product_ean: "7891001234611",
+    sold_at: "2023-09-25T14:30:00",
+    expired_at: "2024-03-25T14:30:00",
+    quantity: 75,
+    price_by_unit: 12
+  },
+  {
+    supplier_code: 3003,
+    product_ean: "7891001234654",
+    sold_at: "2023-10-05T09:00:00",
+    expired_at: "2024-04-05T09:00:00",
+    quantity: 150,
+    price_by_unit: 20
+  },
+  {
+    supplier_code: 3004,
+    product_ean: "7891001234786",
+    sold_at: "2023-06-10T08:30:00",
+    expired_at: "2024-01-10T08:30:00",
+    quantity: 95,
+    price_by_unit: 14
+  },
+  {
+    supplier_code: 3005,
+    product_ean: "7891001234711",
+    sold_at: "2023-08-01T13:15:00",
+    expired_at: "2024-02-01T13:15:00",
+    quantity: 60,
+    price_by_unit: 21
+  },
+  {
+    supplier_code: 3006,
+    product_ean: "7891001234601",
+    sold_at: "2023-07-15T15:45:00",
+    expired_at: "2024-01-15T15:45:00",
+    quantity: 110,
+    price_by_unit: 19
+  },
+  {
+    supplier_code: 3007,
+    product_ean: "7891001234664",
+    sold_at: "2023-11-20T12:30:00",
+    expired_at: "2024-05-20T12:30:00",
+    quantity: 140,
+    price_by_unit: 10
+  },
+  {
+    supplier_code: 3008,
+    product_ean: "7891001234765",
+    sold_at: "2023-10-01T10:30:00",
+    expired_at: "2024-04-01T10:30:00",
+    quantity: 170,
+    price_by_unit: 13
+  },
+  {
+    supplier_code: 3009,
+    product_ean: "7891001234610",
+    sold_at: "2023-08-12T15:00:00",
+    expired_at: "2024-02-12T15:00:00",
+    quantity: 50,
+    price_by_unit: 16
+  },
+  {
+    supplier_code: 3010,
+    product_ean: "7891001234622",
+    sold_at: "2023-09-01T11:45:00",
+    expired_at: "2024-03-01T11:45:00",
+    quantity: 75,
+    price_by_unit: 25
+  },
+  {
+    supplier_code: 3001,
+    product_ean: "7891001234578",
+    sold_at: "2023-10-10T09:15:00",
+    expired_at: "2024-04-10T09:15:00",
+    quantity: 60,
+    price_by_unit: 18
+  },
+  {
+    supplier_code: 3002,
+    product_ean: "7891001234644",
+    sold_at: "2023-07-30T12:00:00",
+    expired_at: "2024-01-30T12:00:00",
+    quantity: 90,
+    price_by_unit: 15
+  },
+  {
+    supplier_code: 3003,
+    product_ean: "7891001234696",
+    sold_at: "2023-08-05T14:30:00",
+    expired_at: "2024-02-05T14:30:00",
+    quantity: 200,
+    price_by_unit: 23
+  },
+  {
+    supplier_code: 3004,
+    product_ean: "7891001234711",
+    sold_at: "2023-06-20T11:30:00",
+    expired_at: "2024-01-20T11:30:00",
+    quantity: 140,
+    price_by_unit: 19
+  },
+  {
+    supplier_code: 3005,
+    product_ean: "7891001234767",
+    sold_at: "2023-07-25T10:45:00",
+    expired_at: "2024-01-25T10:45:00",
+    quantity: 110,
+    price_by_unit: 17
+  },
+  {
+    supplier_code: 3006,
+    product_ean: "7891001234644",
+    sold_at: "2023-08-15T13:15:00",
+    expired_at: "2024-02-15T13:15:00",
+    quantity: 75,
+    price_by_unit: 22
+  },
+  {
+    supplier_code: 3007,
+    product_ean: "7891001234654",
+    sold_at: "2023-09-05T09:30:00",
+    expired_at: "2024-03-05T09:30:00",
+    quantity: 120,
+    price_by_unit: 11
+  },
+  {
+    supplier_code: 3008,
+    product_ean: "7891001234796",
+    sold_at: "2023-11-01T14:00:00",
+    expired_at: "2024-05-01T14:00:00",
+    quantity: 50,
+    price_by_unit: 14
+  },
+  {
+    supplier_code: 3009,
+    product_ean: "7891001234696",
+    sold_at: "2023-09-10T10:00:00",
+    expired_at: "2024-03-10T10:00:00",
+    quantity: 140,
+    price_by_unit: 18
+  },
+  {
+    supplier_code: 3010,
+    product_ean: "7891001234731",
+    sold_at: "2023-08-25T08:30:00",
+    expired_at: "2024-02-25T08:30:00",
+    quantity: 170,
+    price_by_unit: 12
+  },
+  {
+    supplier_code: 3001,
+    product_ean: "7891001234786",
+    sold_at: "2023-06-01T15:45:00",
+    expired_at: "2024-01-01T15:45:00",
+    quantity: 100,
+    price_by_unit: 13
+  },
+  {
+    supplier_code: 3002,
+    product_ean: "7891001234716",
+    sold_at: "2023-09-15T10:30:00",
+    expired_at: "2024-03-15T10:30:00",
+    quantity: 90,
+    price_by_unit: 21
+  },
+  {
+    supplier_code: 3003,
+    product_ean: "7891001234788",
+    sold_at: "2023-10-20T12:15:00",
+    expired_at: "2024-04-20T12:15:00",
+    quantity: 75,
+    price_by_unit: 19
+  },
+  {
+    supplier_code: 3004,
+    product_ean: "7891001234765",
+    sold_at: "2023-08-12T13:00:00",
+    expired_at: "2024-02-12T13:00:00",
+    quantity: 60,
+    price_by_unit: 25
+  },
+  {
+    supplier_code: 3005,
+    product_ean: "7891001234651",
+    sold_at: "2023-09-25T11:30:00",
+    expired_at: "2024-03-25T11:30:00",
+    quantity: 120,
+    price_by_unit: 10
+  },
+  {
+    supplier_code: 3006,
+    product_ean: "7891001234599",
+    sold_at: "2023-07-01T14:45:00",
+    expired_at: "2024-01-01T14:45:00",
+    quantity: 50,
+    price_by_unit: 16
+  },
+  {
+    supplier_code: 3007,
+    product_ean: "7891001234581",
+    sold_at: "2023-06-10T09:15:00",
+    expired_at: "2024-01-10T09:15:00",
+    quantity: 200,
+    price_by_unit: 14
+  },
+  {
+    supplier_code: 3008,
+    product_ean: "7891001234796",
+    sold_at: "2023-08-05T12:30:00",
+    expired_at: "2024-02-05T12:30:00",
+    quantity: 75,
+    price_by_unit: 20
+  },
+  {
+    supplier_code: 3009,
+    product_ean: "7891001234622",
+    sold_at: "2023-09-12T10:45:00",
+    expired_at: "2024-03-12T10:45:00",
+    quantity: 150,
+    price_by_unit: 17
+  },
+  {
+    supplier_code: 3010,
+    product_ean: "7891001234731",
+    sold_at: "2023-06-30T11:30:00",
+    expired_at: "2024-01-30T11:30:00",
+    quantity: 60,
+    price_by_unit: 19
+  },
+  {
+    supplier_code: 3001,
+    product_ean: "7891001234654",
+    sold_at: "2023-07-15T12:15:00",
+    expired_at: "2024-01-15T12:15:00",
+    quantity: 90,
+    price_by_unit: 22
+  },
+  {
+    supplier_code: 3002,
+    product_ean: "7891001234600",
+    sold_at: "2023-09-01T10:00:00",
+    expired_at: "2024-03-01T10:00:00",
+    quantity: 170,
+    price_by_unit: 15
+  },
+  {
+    supplier_code: 3003,
+    product_ean: "7891001234686",
+    sold_at: "2023-08-20T14:30:00",
+    expired_at: "2024-02-20T14:30:00",
+    quantity: 50,
+    price_by_unit: 13
+  },
+  {
+    supplier_code: 3004,
+    product_ean: "7891001234786",
+    sold_at: "2023-06-05T15:15:00",
+    expired_at: "2024-01-05T15:15:00",
+    quantity: 140,
+    price_by_unit: 18
+  },
+  {
+    supplier_code: 3005,
+    product_ean: "7891001234581",
+    sold_at: "2023-09-15T13:30:00",
+    expired_at: "2024-03-15T13:30:00",
+    quantity: 75,
+    price_by_unit: 16
+  },
+  {
+    supplier_code: 3006,
+    product_ean: "7891001234696",
+    sold_at: "2023-08-01T10:15:00",
+    expired_at: "2024-02-01T10:15:00",
+    quantity: 60,
+    price_by_unit: 14
+  },
+  {
+    supplier_code: 3007,
+    product_ean: "7891001234765",
+    sold_at: "2023-07-25T11:45:00",
+    expired_at: "2024-01-25T11:45:00",
+    quantity: 120,
+    price_by_unit: 20
+  },
+  {
+    supplier_code: 3008,
+    product_ean: "7891001234716",
+    sold_at: "2023-09-05T08:45:00",
+    expired_at: "2024-03-05T08:45:00",
+    quantity: 90,
+    price_by_unit: 11
+  },
+  {
+    supplier_code: 3009,
+    product_ean: "7891001234767",
+    sold_at: "2023-08-12T13:30:00",
+    expired_at: "2024-02-12T13:30:00",
+    quantity: 140,
+    price_by_unit: 17
+  },
+  {
+    supplier_code: 3010,
+    product_ean: "7891001234731",
+    sold_at: "2023-10-01T14:45:00",
+    expired_at: "2024-04-01T14:45:00",
+    quantity: 200,
+    price_by_unit: 25
+  },
+  {
+    supplier_code: 3001,
+    product_ean: "7891001234788",
+    sold_at: "2023-09-15T10:00:00",
+    expired_at: "2024-03-15T10:00:00",
+    quantity: 140,
+    price_by_unit: 22
+  },
+  {
+    supplier_code: 3002,
+    product_ean: "7891001234796",
+    sold_at: "2023-07-20T11:00:00",
+    expired_at: "2024-01-20T11:00:00",
+    quantity: 170,
+    price_by_unit: 18
+  },
+  {
+    supplier_code: 3003,
+    product_ean: "7891001234765",
+    sold_at: "2023-08-25T14:30:00",
+    expired_at: "2024-02-25T14:30:00",
+    quantity: 60,
+    price_by_unit: 12
+  },
+  {
+    supplier_code: 3004,
+    product_ean: "7891001234611",
+    sold_at: "2023-10-15T12:15:00",
+    expired_at: "2024-04-15T12:15:00",
+    quantity: 75,
+    price_by_unit: 19
+  },
+  {
+    supplier_code: 3005,
+    product_ean: "7891001234651",
+    sold_at: "2023-06-10T13:45:00",
+    expired_at: "2024-01-10T13:45:00",
+    quantity: 90,
+    price_by_unit: 13
+  },
+  {
+    supplier_code: 3006,
+    product_ean: "7891001234599",
+    sold_at: "2023-07-05T15:00:00",
+    expired_at: "2024-01-05T15:00:00",
+    quantity: 140,
+    price_by_unit: 11
+  },
+  {
+    supplier_code: 3007,
+    product_ean: "7891001234686",
+    sold_at: "2023-08-15T10:15:00",
+    expired_at: "2024-02-15T10:15:00",
+    quantity: 50,
+    price_by_unit: 23
+  },
+  {
+    supplier_code: 3008,
+    product_ean: "7891001234622",
+    sold_at: "2023-09-10T14:45:00",
+    expired_at: "2024-03-10T14:45:00",
+    quantity: 170,
+    price_by_unit: 15
+  },
+  {
+    supplier_code: 3009,
+    product_ean: "7891001234796",
+    sold_at: "2023-10-01T08:30:00",
+    expired_at: "2024-04-01T08:30:00",
+    quantity: 60,
+    price_by_unit: 14
+  },
+  {
+    supplier_code: 3010,
+    product_ean: "7891001234711",
+    sold_at: "2023-08-05T10:30:00",
+    expired_at: "2024-02-05T10:30:00",
+    quantity: 75,
+    price_by_unit: 18
+  },
+  {
+    supplier_code: 3001,
+    product_ean: "7891001234654",
+    sold_at: "2023-09-15T11:45:00",
+    expired_at: "2024-03-15T11:45:00",
+    quantity: 90,
+    price_by_unit: 10
+  },
+  {
+    supplier_code: 3002,
+    product_ean: "7891001234581",
+    sold_at: "2023-10-05T14:00:00",
+    expired_at: "2024-04-05T14:00:00",
+    quantity: 120,
+    price_by_unit: 25
+  },
+  {
+    supplier_code: 3003,
+    product_ean: "7891001234731",
+    sold_at: "2023-06-25T12:15:00",
+    expired_at: "2024-01-25T12:15:00",
+    quantity: 50,
+    price_by_unit: 19
+  },
+  {
+    supplier_code: 3004,
+    product_ean: "7891001234599",
+    sold_at: "2023-09-12T15:30:00",
+    expired_at: "2024-03-12T15:30:00",
+    quantity: 140,
+    price_by_unit: 17
+  },
+  {
+    supplier_code: 3005,
+    product_ean: "7891001234788",
+    sold_at: "2023-07-20T09:45:00",
+    expired_at: "2024-01-20T09:45:00",
+    quantity: 110,
+    price_by_unit: 13
+  },
+  {
+    supplier_code: 3006,
+    product_ean: "7891001234796",
+    sold_at: "2023-08-01T14:15:00",
+    expired_at: "2024-02-01T14:15:00",
+    quantity: 170,
+    price_by_unit: 16
+  },
+  {
+    supplier_code: 3007,
+    product_ean: "7891001234622",
+    sold_at: "2023-07-05T13:00:00",
+    expired_at: "2024-01-05T13:00:00",
+    quantity: 90,
+    price_by_unit: 18
+  },
+  {
+    supplier_code: 3008,
+    product_ean: "7891001234765",
+    sold_at: "2023-10-01T11:30:00",
+    expired_at: "2024-04-01T11:30:00",
+    quantity: 60,
+    price_by_unit: 14
+  },
+  {
+    supplier_code: 3009,
+    product_ean: "7891001234696",
+    sold_at: "2023-06-12T10:15:00",
+    expired_at: "2024-01-12T10:15:00",
+    quantity: 75,
+    price_by_unit: 22
+  },
+  {
+    supplier_code: 3010,
+    product_ean: "7891001234644",
+    sold_at: "2023-08-25T12:45:00",
+    expired_at: "2024-02-25T12:45:00",
+    quantity: 140,
+    price_by_unit: 19
+  },
+  {
+    supplier_code: 3001,
+    product_ean: "7891001234721",
+    sold_at: "2023-09-15T10:30:00",
+    expired_at: "2024-03-15T10:30:00",
+    quantity: 80,
+    price_by_unit: 12
+  },
+  {
+    supplier_code: 3002,
+    product_ean: "7891001234644",
+    sold_at: "2023-07-25T09:15:00",
+    expired_at: "2024-01-25T09:15:00",
+    quantity: 60,
+    price_by_unit: 15
+  },
+  {
+    supplier_code: 3003,
+    product_ean: "7891001234622",
+    sold_at: "2023-08-05T11:30:00",
+    expired_at: "2024-02-05T11:30:00",
+    quantity: 75,
+    price_by_unit: 19
+  },
+  {
+    supplier_code: 3004,
+    product_ean: "7891001234771",
+    sold_at: "2023-09-01T14:15:00",
+    expired_at: "2024-03-01T14:15:00",
+    quantity: 200,
+    price_by_unit: 17
+  },
+  {
+    supplier_code: 3005,
+    product_ean: "7891001234599",
+    sold_at: "2023-06-10T13:45:00",
+    expired_at: "2024-01-10T13:45:00",
+    quantity: 100,
+    price_by_unit: 14
+  },
+  {
+    supplier_code: 3006,
+    product_ean: "7891001234716",
+    sold_at: "2023-10-20T12:00:00",
+    expired_at: "2024-04-20T12:00:00",
+    quantity: 140,
+    price_by_unit: 18
+  },
+  {
+    supplier_code: 3007,
+    product_ean: "7891001234786",
+    sold_at: "2023-07-15T15:30:00",
+    expired_at: "2024-01-15T15:30:00",
+    quantity: 90,
+    price_by_unit: 22
+  },
+  {
+    supplier_code: 3008,
+    product_ean: "7891001234765",
+    sold_at: "2023-08-25T11:45:00",
+    expired_at: "2024-02-25T11:45:00",
+    quantity: 120,
+    price_by_unit: 16
+  },
+  {
+    supplier_code: 3009,
+    product_ean: "7891001234600",
+    sold_at: "2023-09-12T10:00:00",
+    expired_at: "2024-03-12T10:00:00",
+    quantity: 50,
+    price_by_unit: 13
+  },
+  {
+    supplier_code: 3010,
+    product_ean: "7891001234731",
+    sold_at: "2023-06-30T09:45:00",
+    expired_at: "2024-01-30T09:45:00",
+    quantity: 170,
+    price_by_unit: 20
+  },
+  {
+    supplier_code: 3001,
+    product_ean: "7891001234665",
+    sold_at: "2023-07-01T14:30:00",
+    expired_at: "2024-01-01T14:30:00",
+    quantity: 60,
+    price_by_unit: 25
+  },
+  {
+    supplier_code: 3002,
+    product_ean: "7891001234651",
+    sold_at: "2023-08-20T12:15:00",
+    expired_at: "2024-02-20T12:15:00",
+    quantity: 75,
+    price_by_unit: 21
+  },
+  {
+    supplier_code: 3003,
+    product_ean: "7891001234796",
+    sold_at: "2023-10-01T10:15:00",
+    expired_at: "2024-04-01T10:15:00",
+    quantity: 90,
+    price_by_unit: 12
+  },
+  {
+    supplier_code: 3004,
+    product_ean: "7891001234644",
+    sold_at: "2023-09-25T08:30:00",
+    expired_at: "2024-03-25T08:30:00",
+    quantity: 140,
+    price_by_unit: 19
+  },
+  {
+    supplier_code: 3005,
+    product_ean: "7891001234622",
+    sold_at: "2023-07-15T13:00:00",
+    expired_at: "2024-01-15T13:00:00",
+    quantity: 110,
+    price_by_unit: 14
+  },
+  {
+    supplier_code: 3006,
+    product_ean: "7891001234581",
+    sold_at: "2023-08-05T11:45:00",
+    expired_at: "2024-02-05T11:45:00",
+    quantity: 60,
+    price_by_unit: 18
+  },
+  {
+    supplier_code: 3007,
+    product_ean: "7891001234599",
+    sold_at: "2023-09-10T12:30:00",
+    expired_at: "2024-03-10T12:30:00",
+    quantity: 50,
+    price_by_unit: 17
+  },
+  {
+    supplier_code: 3008,
+    product_ean: "7891001234611",
+    sold_at: "2023-06-20T14:00:00",
+    expired_at: "2024-01-20T14:00:00",
+    quantity: 200,
+    price_by_unit: 23
+  },
+  {
+    supplier_code: 3009,
+    product_ean: "7891001234686",
+    sold_at: "2023-08-10T09:00:00",
+    expired_at: "2024-02-10T09:00:00",
+    quantity: 140,
+    price_by_unit: 15
+  },
+  {
+    supplier_code: 3010,
+    product_ean: "7891001234767",
+    sold_at: "2023-10-15T13:15:00",
+    expired_at: "2024-04-15T13:15:00",
+    quantity: 90,
+    price_by_unit: 14
+  },
+  {
+    supplier_code: 3001,
+    product_ean: "7891001234771",
+    sold_at: "2023-09-20T14:30:00",
+    expired_at: "2024-03-20T14:30:00",
+    quantity: 170,
+    price_by_unit: 10
+  },
+  {
+    supplier_code: 3002,
+    product_ean: "7891001234788",
+    sold_at: "2023-07-05T09:30:00",
+    expired_at: "2024-01-05T09:30:00",
+    quantity: 120,
+    price_by_unit: 18
+  },
+  {
+    supplier_code: 3003,
+    product_ean: "7891001234711",
+    sold_at: "2023-08-25T10:00:00",
+    expired_at: "2024-02-25T10:00:00",
+    quantity: 60,
+    price_by_unit: 14
+  },
+  {
+    supplier_code: 3004,
+    product_ean: "7891001234731",
+    sold_at: "2023-09-15T11:45:00",
+    expired_at: "2024-03-15T11:45:00",
+    quantity: 140,
+    price_by_unit: 25
+  },
+  {
+    supplier_code: 3005,
+    product_ean: "7891001234786",
+    sold_at: "2023-06-01T13:30:00",
+    expired_at: "2024-01-01T13:30:00",
+    quantity: 75,
+    price_by_unit: 22
+  },
+  {
+    supplier_code: 3006,
+    product_ean: "7891001234765",
+    sold_at: "2023-10-05T12:00:00",
+    expired_at: "2024-04-05T12:00:00",
+    quantity: 90,
+    price_by_unit: 19
+  },
+  {
+    supplier_code: 3007,
+    product_ean: "7891001234716",
+    sold_at: "2023-07-20T08:45:00",
+    expired_at: "2024-01-20T08:45:00",
+    quantity: 200,
+    price_by_unit: 11
+  },
+  {
+    supplier_code: 3008,
+    product_ean: "7891001234651",
+    sold_at: "2023-09-01T15:15:00",
+    expired_at: "2024-03-01T15:15:00",
+    quantity: 110,
+    price_by_unit: 16
+  },
+  {
+    supplier_code: 3009,
+    product_ean: "7891001234599",
+    sold_at: "2023-08-15T12:15:00",
+    expired_at: "2024-02-15T12:15:00",
+    quantity: 140,
+    price_by_unit: 20
+  },
+  {
+    supplier_code: 3010,
+    product_ean: "7891001234665",
+    sold_at: "2023-09-30T14:45:00",
+    expired_at: "2024-03-30T14:45:00",
+    quantity: 75,
+    price_by_unit: 19
+  },
+  {
+    supplier_code: 3001,
+    product_ean: "7891001234696",
+    sold_at: "2023-07-10T10:00:00",
+    expired_at: "2024-01-10T10:00:00",
+    quantity: 120,
+    price_by_unit: 13
+  },
+  {
+    supplier_code: 3002,
+    product_ean: "7891001234796",
+    sold_at: "2023-08-01T14:30:00",
+    expired_at: "2024-02-01T14:30:00",
+    quantity: 100,
+    price_by_unit: 14
+  },
+  {
+    supplier_code: 3003,
+    product_ean: "7891001234581",
+    sold_at: "2023-09-05T13:00:00",
+    expired_at: "2024-03-05T13:00:00",
+    quantity: 60,
+    price_by_unit: 18
+  },
+  {
+    supplier_code: 3004,
+    product_ean: "7891001234600",
+    sold_at: "2023-07-20T11:45:00",
+    expired_at: "2024-01-20T11:45:00",
+    quantity: 90,
+    price_by_unit: 22
+  },
+  {
+    supplier_code: 3005,
+    product_ean: "7891001234622",
+    sold_at: "2023-08-30T10:30:00",
+    expired_at: "2024-02-28T10:30:00",
+    quantity: 200,
+    price_by_unit: 12
+  },
+  {
+    supplier_code: 3006,
+    product_ean: "7891001234731",
+    sold_at: "2023-09-15T12:45:00",
+    expired_at: "2024-03-15T12:45:00",
+    quantity: 140,
+    price_by_unit: 17
+  },
+  {
+    supplier_code: 3007,
+    product_ean: "7891001234765",
+    sold_at: "2023-10-01T11:00:00",
+    expired_at: "2024-04-01T11:00:00",
+    quantity: 50,
+    price_by_unit: 21
+  },
+  {
+    supplier_code: 3008,
+    product_ean: "7891001234686",
+    sold_at: "2023-08-05T09:45:00",
+    expired_at: "2024-02-05T09:45:00",
+    quantity: 170,
+    price_by_unit: 14
+  },
+  {
+    supplier_code: 3009,
+    product_ean: "7891001234767",
+    sold_at: "2023-07-25T12:15:00",
+    expired_at: "2024-01-25T12:15:00",
+    quantity: 140,
+    price_by_unit: 16
+  },
+  {
+    supplier_code: 3010,
+    product_ean: "7891001234651",
+    sold_at: "2023-06-15T10:15:00",
+    expired_at: "2024-01-15T10:15:00",
+    quantity: 75,
+    price_by_unit: 23
+  },
+  {
+    supplier_code: 3001,
+    product_ean: "7891001234711",
+    sold_at: "2023-09-20T14:00:00",
+    expired_at: "2024-03-20T14:00:00",
+    quantity: 90,
+    price_by_unit: 18
+  },
+  {
+    supplier_code: 3002,
+    product_ean: "7891001234599",
+    sold_at: "2023-08-25T13:30:00",
+    expired_at: "2024-02-25T13:30:00",
+    quantity: 60,
+    price_by_unit: 20
+  },
+  {
+    supplier_code: 3003,
+    product_ean: "7891001234788",
+    sold_at: "2023-07-15T15:15:00",
+    expired_at: "2024-01-15T15:15:00",
+    quantity: 75,
+    price_by_unit: 13
+  },
+  {
+    supplier_code: 3004,
+    product_ean: "7891001234771",
+    sold_at: "2023-08-05T14:45:00",
+    expired_at: "2024-02-05T14:45:00",
+    quantity: 110,
+    price_by_unit: 14
+  },
+  {
+    supplier_code: 3005,
+    product_ean: "7891001234600",
+    sold_at: "2023-09-12T11:15:00",
+    expired_at: "2024-03-12T11:15:00",
+    quantity: 140,
+    price_by_unit: 18
+  },
+  {
+    supplier_code: 3006,
+    product_ean: "7891001234644",
+    sold_at: "2023-06-30T09:00:00",
+    expired_at: "2024-01-30T09:00:00",
+    quantity: 200,
+    price_by_unit: 19
+  },
+  {
+    supplier_code: 3007,
+    product_ean: "7891001234716",
+    sold_at: "2023-10-10T12:45:00",
+    expired_at: "2024-04-10T12:45:00",
+    quantity: 140,
+    price_by_unit: 10
+  },
+  {
+    supplier_code: 3008,
+    product_ean: "7891001234796",
+    sold_at: "2023-09-20T14:30:00",
+    expired_at: "2024-03-20T14:30:00",
+    quantity: 90,
+    price_by_unit: 16
+  },
+  {
+    supplier_code: 3009,
+    product_ean: "7891001234622",
+    sold_at: "2023-07-05T13:45:00",
+    expired_at: "2024-01-05T13:45:00",
+    quantity: 140,
+    price_by_unit: 14
+  },
+  {
+    supplier_code: 3010,
+    product_ean: "7891001234731",
+    sold_at: "2023-08-15T15:00:00",
+    expired_at: "2024-02-15T15:00:00",
+    quantity: 75,
+    price_by_unit: 19
+  },
+  {
+    supplier_code: 3001,
+    product_ean: "7891001234765",
+    sold_at: "2023-09-25T10:30:00",
+    expired_at: "2024-03-25T10:30:00",
+    quantity: 110,
+    price_by_unit: 17
+  },
+  {
+    supplier_code: 3002,
+    product_ean: "7891001234651",
+    sold_at: "2023-08-10T09:15:00",
+    expired_at: "2024-02-10T09:15:00",
+    quantity: 60,
+    price_by_unit: 18
+  },
+  {
+    supplier_code: 3003,
+    product_ean: "7891001234665",
+    sold_at: "2023-07-20T10:00:00",
+    expired_at: "2024-01-20T10:00:00",
+    quantity: 90,
+    price_by_unit: 25
+  },
+  {
+    supplier_code: 3004,
+    product_ean: "7891001234711",
+    sold_at: "2023-10-01T12:00:00",
+    expired_at: "2024-04-01T12:00:00",
+    quantity: 140,
+    price_by_unit: 22
+  },
+  {
+    supplier_code: 3005,
+    product_ean: "7891001234786",
+    sold_at: "2023-09-10T09:45:00",
+    expired_at: "2024-03-10T09:45:00",
+    quantity: 50,
+    price_by_unit: 19
+  },
+  {
+    supplier_code: 3006,
+    product_ean: "7891001234716",
+    sold_at: "2023-06-05T15:15:00",
+    expired_at: "2024-01-05T15:15:00",
+    quantity: 75,
+    price_by_unit: 17
+  },
+  {
+    supplier_code: 3007,
+    product_ean: "7891001234599",
+    sold_at: "2023-08-25T14:00:00",
+    expired_at: "2024-02-25T14:00:00",
+    quantity: 140,
+    price_by_unit: 11
+  },
+  {
+    supplier_code: 3008,
+    product_ean: "7891001234796",
+    sold_at: "2023-09-15T12:30:00",
+    expired_at: "2024-03-15T12:30:00",
+    quantity: 90,
+    price_by_unit: 13
+  },
+  {
+    supplier_code: 3009,
+    product_ean: "7891001234767",
+    sold_at: "2023-07-30T13:45:00",
+    expired_at: "2024-01-30T13:45:00",
+    quantity: 60,
+    price_by_unit: 14
+  },
+  {
+    supplier_code: 3010,
+    product_ean: "7891001234644",
+    sold_at: "2023-08-01T15:30:00",
+    expired_at: "2024-02-01T15:30:00",
+    quantity: 140,
+    price_by_unit: 18
+  }
+];
+
+const employees = [
+  { name: "Lucas Almeida", cpf: "102.345.678-92", role: "Motorista de Entrega" },
+  { name: "Renata Souza", cpf: "213.456.789-12", role: "Auxiliar de Logística" },
+  { name: "Carlos Silva", cpf: "324.567.890-13", role: "Supervisor de Armazém" },
+  { name: "Juliana Mendes", cpf: "435.678.901-14", role: "Coordenadora de Logística" },
+  { name: "Rafael Pereira", cpf: "546.789.012-15", role: "Encarregado de Estoque" },
+  { name: "Vanessa Gomes", cpf: "657.890.123-16", role: "Analista de Compras" },
+  { name: "Tiago Ribeiro", cpf: "768.901.234-17", role: "Conferente de Mercadorias" },
+  { name: "Ana Paula Santos", cpf: "879.012.345-18", role: "Auxiliar Administrativo" },
+  { name: "João Henrique", cpf: "980.123.456-19", role: "Motorista de Caminhão" },
+  { name: "Isabela Nunes", cpf: "091.234.567-20", role: "Assistente de Vendas Internas" },
+  { name: "Ricardo Tavares", cpf: "192.345.678-21", role: "Operador de Empilhadeira" },
+  { name: "Fernanda Monteiro", cpf: "203.456.789-22", role: "Analista de Transportes" },
+  { name: "Fábio Antunes", cpf: "314.567.890-23", role: "Motorista de Entrega" },
+  { name: "Camila Duarte", cpf: "425.678.901-24", role: "Auxiliar de Limpeza" },
+  { name: "Felipe Costa", cpf: "536.789.012-25", role: "Assistente de Logística" },
+  { name: "Larissa Lima", cpf: "647.890.123-26", role: "Conferente de Mercadorias" },
+  { name: "Bruno Carvalho", cpf: "758.901.234-27", role: "Analista de Estoque" },
+  { name: "Mariana Rocha", cpf: "869.012.345-28", role: "Recepcionista" },
+  { name: "Gustavo Martins", cpf: "970.123.456-29", role: "Gerente de Transporte" },
+  { name: "Tatiane Silva", cpf: "081.234.567-30", role: "Supervisora de Operações" },
+  { name: "Eduardo Franco", cpf: "192.345.678-31", role: "Motorista de Caminhão" },
+  { name: "Cíntia Barros", cpf: "203.456.789-32", role: "Coordenadora de Logística" },
+  { name: "Adriana Santana", cpf: "314.567.890-33", role: "Auxiliar de Logística" },
+  { name: "Roberto Castro", cpf: "425.678.901-34", role: "Supervisor de Frota" },
+  { name: "Paula Souza", cpf: "536.789.012-35", role: "Analista de Transporte e Distribuição" },
+  { name: "Fernando Lopes", cpf: "647.890.123-36", role: "Motorista de Entrega" },
+  { name: "Cláudia Oliveira", cpf: "758.901.234-37", role: "Assistente de Compras" },
+  { name: "Diego Matos", cpf: "869.012.345-38", role: "Conferente de Mercadorias" },
+  { name: "Rafaela Rezende", cpf: "970.123.456-39", role: "Vendedora Externa" },
+  { name: "Maurício Andrade", cpf: "081.234.567-40", role: "Gerente Regional" },
+  { name: "Joana Borges", cpf: "192.345.678-41", role: "Recepcionista" },
+  { name: "Pedro Assis", cpf: "203.456.789-42", role: "Auxiliar de Estoque" },
+  { name: "Elisa Pereira", cpf: "314.567.890-43", role: "Analista de Operações Logísticas" },
+  { name: "Marcelo Neves", cpf: "425.678.901-44", role: "Conferente de Estoque" },
+  { name: "Helena Machado", cpf: "536.789.012-45", role: "Supervisora de Logística" },
+  { name: "Luiz Otávio", cpf: "647.890.123-46", role: "Motorista de Entrega" },
+  { name: "Natália Ribeiro", cpf: "758.901.234-47", role: "Assistente de Vendas" },
+  { name: "Victor Almeida", cpf: "869.012.345-48", role: "Supervisor de Estoque" },
+  { name: "Carolina Dias", cpf: "970.123.456-49", role: "Auxiliar Administrativo" },
+  { name: "Daniel Teixeira", cpf: "081.234.567-50", role: "Motorista de Caminhão" },
+  { name: "Priscila Nogueira", cpf: "192.345.678-51", role: "Recepcionista" },
+  { name: "Igor Mendes", cpf: "203.456.789-52", role: "Analista de Roteirização" },
+  { name: "Beatriz Oliveira", cpf: "314.567.890-53", role: "Auxiliar de Armazém" },
+  { name: "Sérgio Barbosa", cpf: "425.678.901-54", role: "Motorista de Entrega" },
+  { name: "Andressa Matos", cpf: "536.789.012-55", role: "Analista de Frota" },
+  { name: "Felipe Nascimento", cpf: "647.890.123-56", role: "Supervisor de Transporte" },
+  { name: "Tatiane Vasconcelos", cpf: "758.901.234-57", role: "Coordenadora de Expedição" },
+  { name: "Jonas Vieira", cpf: "869.012.345-58", role: "Gerente de Operações Logísticas" },
+  { name: "Michele Araújo", cpf: "970.123.456-59", role: "Assistente de Logística" },
+  { name: "Thiago Siqueira", cpf: "081.234.567-60", role: "Conferente de Mercadorias" }
+];
+
+
 db.createCollection("categories");
 db.getCollection("categories").createIndex({ code: 1 });
 
@@ -1695,3 +3192,53 @@ places.map((place) => {
     print(`Place '${place.name}' inserido ou atualizado com sucesso!`);
 });
 
+db.createCollection("purchase_orders");
+db.getCollection("purchase_orders").createIndex({ "supplier.code": 1, "sold_at": -1, "expired_at": -1 });
+db.getCollection("purchase_orders").createIndex({ "product.ean": 1, "sold_at": -1, "expired_at": -1 });
+
+purchase_orders
+    .map((order) => ([
+        order,
+        db.getCollection("suppliers").findOne({ code: order.supplier_code }),
+        db.getCollection("products").findOne({ ean: order.product_ean })
+    ]))
+    .map(([order, supplier, product]) => ({
+        supplier: {
+            code: supplier?.code || order.supplier_code,
+            cnpj: supplier?.cnpj || "CNPJ não encontrado"
+        },
+        product: {
+            ean: product?.ean || order.product_ean,
+            name: product?.name || "Produto não encontrado"
+        },
+        quantity: order.quantity,
+        price_by_unit: order.price_by_unit,
+        sold_at: new Date(order.sold_at),
+        expired_at: new Date(order.expired_at)
+    }))
+    .map((purchaseOrderDocument) => {
+        db.getCollection("purchase_orders").updateOne(
+            {
+                "supplier.code": purchaseOrderDocument.supplier.code,
+                "product.ean": purchaseOrderDocument.product.ean,
+                sold_at: purchaseOrderDocument.sold_at,
+                expired_at: purchaseOrderDocument.expired_at
+            },
+            { $set: purchaseOrderDocument },
+            { upsert: true }
+        );
+    });
+
+db.createCollection("employees");
+db.getCollection("employees").createIndex({ cpf: 1 });
+db.getCollection("employees").createIndex({ role: 1 });
+employees
+    .map((employee) => {
+        db.getCollection("employees").updateOne(
+            { cpf: employee.cpf }, // Condição de identificação
+            { $set: employee },    // Atualiza ou insere o documento
+            { upsert: true }
+        );
+
+        print(`Funcionário '${employee.name}' inserido ou atualizado com sucesso!`);
+    });
