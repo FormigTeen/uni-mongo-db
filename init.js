@@ -1617,6 +1617,3009 @@ const places = [
     }
 ];
 
+const configurations = [
+  {
+    place_cnpj: "12345678000100",
+    product_ean: "7891001234567",
+    min_quantity: 50,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "12345678000100",
+    product_ean: "7891001234571",
+    min_quantity: 20,
+    max_quantity: 100
+  },
+  {
+    place_cnpj: "12345678000100",
+    product_ean: "7891001234578",
+    min_quantity: 30,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "12345678000100",
+    product_ean: "7891001234591",
+    min_quantity: 15,
+    max_quantity: 120
+  },
+  {
+    place_cnpj: "12345678000100",
+    product_ean: "7891001234611",
+    min_quantity: 10,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "22345678000100",
+    product_ean: "7891001234573",
+    min_quantity: 40,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "22345678000100",
+    product_ean: "7891001234582",
+    min_quantity: 20,
+    max_quantity: 90
+  },
+  {
+    place_cnpj: "22345678000100",
+    product_ean: "7891001234601",
+    min_quantity: 15,
+    max_quantity: 100
+  },
+  {
+    place_cnpj: "22345678000100",
+    product_ean: "7891001234616",
+    min_quantity: 25,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "22345678000100",
+    product_ean: "7891001234569",
+    min_quantity: 30,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "32345678000100",
+    product_ean: "7891001234575",
+    min_quantity: 25,
+    max_quantity: 80
+  },
+  {
+    place_cnpj: "32345678000100",
+    product_ean: "7891001234588",
+    min_quantity: 20,
+    max_quantity: 70
+  },
+  {
+    place_cnpj: "32345678000100",
+    product_ean: "7891001234613",
+    min_quantity: 30,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "32345678000100",
+    product_ean: "7891001234632",
+    min_quantity: 40,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "32345678000100",
+    product_ean: "7891001234655",
+    min_quantity: 10,
+    max_quantity: 100
+  },
+  {
+    place_cnpj: "42345678000100",
+    product_ean: "7891001234570",
+    min_quantity: 20,
+    max_quantity: 120
+  },
+  {
+    place_cnpj: "42345678000100",
+    product_ean: "7891001234584",
+    min_quantity: 15,
+    max_quantity: 90
+  },
+  {
+    place_cnpj: "42345678000100",
+    product_ean: "7891001234603",
+    min_quantity: 30,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "42345678000100",
+    product_ean: "7891001234622",
+    min_quantity: 10,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "42345678000100",
+    product_ean: "7891001234577",
+    min_quantity: 25,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "52345678000100",
+    product_ean: "7891001234579",
+    min_quantity: 50,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "52345678000100",
+    product_ean: "7891001234595",
+    min_quantity: 30,
+    max_quantity: 100
+  },
+  {
+    place_cnpj: "52345678000100",
+    product_ean: "7891001234621",
+    min_quantity: 20,
+    max_quantity: 120
+  },
+  {
+    place_cnpj: "52345678000100",
+    product_ean: "7891001234665",
+    min_quantity: 10,
+    max_quantity: 80
+  },
+  {
+    place_cnpj: "52345678000100",
+    product_ean: "7891001234573",
+    min_quantity: 15,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "62345678000100",
+    product_ean: "7891001234581",
+    min_quantity: 25,
+    max_quantity: 110
+  },
+  {
+    place_cnpj: "62345678000100",
+    product_ean: "7891001234614",
+    min_quantity: 30,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "62345678000100",
+    product_ean: "7891001234636",
+    min_quantity: 20,
+    max_quantity: 100
+  },
+  {
+    place_cnpj: "62345678000100",
+    product_ean: "7891001234665",
+    min_quantity: 15,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "62345678000100",
+    product_ean: "7891001234655",
+    min_quantity: 10,
+    max_quantity: 50
+  },
+  {
+    place_cnpj: "72345678000100",
+    product_ean: "7891001234569",
+    min_quantity: 40,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "72345678000100",
+    product_ean: "7891001234597",
+    min_quantity: 20,
+    max_quantity: 120
+  },
+  {
+    place_cnpj: "72345678000100",
+    product_ean: "7891001234626",
+    min_quantity: 25,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "72345678000100",
+    product_ean: "7891001234664",
+    min_quantity: 15,
+    max_quantity: 90
+  },
+  {
+    place_cnpj: "72345678000100",
+    product_ean: "7891001234616",
+    min_quantity: 30,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "82345678000100",
+    product_ean: "7891001234572",
+    min_quantity: 20,
+    max_quantity: 100
+  },
+  {
+    place_cnpj: "82345678000100",
+    product_ean: "7891001234592",
+    min_quantity: 15,
+    max_quantity: 90
+  },
+  {
+    place_cnpj: "82345678000100",
+    product_ean: "7891001234654",
+    min_quantity: 25,
+    max_quantity: 120
+  },
+  {
+    place_cnpj: "82345678000100",
+    product_ean: "7891001234666",
+    min_quantity: 30,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "82345678000100",
+    product_ean: "7891001234571",
+    min_quantity: 40,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "92345678000100",
+    product_ean: "7891001234577",
+    min_quantity: 10,
+    max_quantity: 100
+  },
+  {
+    place_cnpj: "92345678000100",
+    product_ean: "7891001234608",
+    min_quantity: 15,
+    max_quantity: 120
+  },
+  {
+    place_cnpj: "92345678000100",
+    product_ean: "7891001234644",
+    min_quantity: 20,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "92345678000100",
+    product_ean: "7891001234663",
+    min_quantity: 30,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "92345678000100",
+    product_ean: "7891001234588",
+    min_quantity: 40,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "102345678000100",
+    product_ean: "7891001234586",
+    min_quantity: 50,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "102345678000100",
+    product_ean: "7891001234624",
+    min_quantity: 30,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "102345678000100",
+    product_ean: "7891001234657",
+    min_quantity: 15,
+    max_quantity: 90
+  },
+  {
+    place_cnpj: "102345678000100",
+    product_ean: "7891001234662",
+    min_quantity: 10,
+    max_quantity: 80
+  },
+  {
+    place_cnpj: "102345678000100",
+    product_ean: "7891001234567",
+    min_quantity: 25,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "112345678000100",
+    product_ean: "7891001234579",
+    min_quantity: 20,
+    max_quantity: 110
+  },
+  {
+    place_cnpj: "112345678000100",
+    product_ean: "7891001234595",
+    min_quantity: 30,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "112345678000100",
+    product_ean: "7891001234621",
+    min_quantity: 15,
+    max_quantity: 120
+  },
+  {
+    place_cnpj: "112345678000100",
+    product_ean: "7891001234665",
+    min_quantity: 10,
+    max_quantity: 100
+  },
+  {
+    place_cnpj: "112345678000100",
+    product_ean: "7891001234636",
+    min_quantity: 40,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "122345678000100",
+    product_ean: "7891001234569",
+    min_quantity: 20,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "122345678000100",
+    product_ean: "7891001234597",
+    min_quantity: 25,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "122345678000100",
+    product_ean: "7891001234626",
+    min_quantity: 15,
+    max_quantity: 120
+  },
+  {
+    place_cnpj: "122345678000100",
+    product_ean: "7891001234689",
+    min_quantity: 30,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "122345678000100",
+    product_ean: "7891001234654",
+    min_quantity: 10,
+    max_quantity: 80
+  },
+  {
+    place_cnpj: "132345678000100",
+    product_ean: "7891001234572",
+    min_quantity: 15,
+    max_quantity: 100
+  },
+  {
+    place_cnpj: "132345678000100",
+    product_ean: "7891001234592",
+    min_quantity: 20,
+    max_quantity: 110
+  },
+  {
+    place_cnpj: "132345678000100",
+    product_ean: "7891001234654",
+    min_quantity: 30,
+    max_quantity: 160
+  },
+  {
+    place_cnpj: "132345678000100",
+    product_ean: "7891001234661",
+    min_quantity: 40,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "132345678000100",
+    product_ean: "7891001234660",
+    min_quantity: 25,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "142345678000100",
+    product_ean: "7891001234577",
+    min_quantity: 10,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "142345678000100",
+    product_ean: "7891001234608",
+    min_quantity: 20,
+    max_quantity: 120
+  },
+  {
+    place_cnpj: "142345678000100",
+    product_ean: "7891001234644",
+    min_quantity: 30,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "142345678000100",
+    product_ean: "7891001234659",
+    min_quantity: 15,
+    max_quantity: 90
+  },
+  {
+    place_cnpj: "142345678000100",
+    product_ean: "7891001234567",
+    min_quantity: 40,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "152345678000100",
+    product_ean: "7891001234586",
+    min_quantity: 25,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "152345678000100",
+    product_ean: "7891001234624",
+    min_quantity: 10,
+    max_quantity: 100
+  },
+  {
+    place_cnpj: "152345678000100",
+    product_ean: "7891001234657",
+    min_quantity: 15,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "152345678000100",
+    product_ean: "7891001234658",
+    min_quantity: 20,
+    max_quantity: 110
+  },
+  {
+    place_cnpj: "152345678000100",
+    product_ean: "7891001234569",
+    min_quantity: 30,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "162345678000100",
+    product_ean: "7891001234581",
+    min_quantity: 40,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "162345678000100",
+    product_ean: "7891001234614",
+    min_quantity: 20,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "162345678000100",
+    product_ean: "7891001234636",
+    min_quantity: 10,
+    max_quantity: 80
+  },
+  {
+    place_cnpj: "162345678000100",
+    product_ean: "7891001234657",
+    min_quantity: 25,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "162345678000100",
+    product_ean: "7891001234656",
+    min_quantity: 30,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "172345678000100",
+    product_ean: "7891001234579",
+    min_quantity: 20,
+    max_quantity: 100
+  },
+  {
+    place_cnpj: "172345678000100",
+    product_ean: "7891001234595",
+    min_quantity: 15,
+    max_quantity: 120
+  },
+  {
+    place_cnpj: "172345678000100",
+    product_ean: "7891001234621",
+    min_quantity: 30,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "172345678000100",
+    product_ean: "7891001234665",
+    min_quantity: 10,
+    max_quantity: 90
+  },
+  {
+    place_cnpj: "172345678000100",
+    product_ean: "7891001234572",
+    min_quantity: 40,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "182345678000100",
+    product_ean: "7891001234569",
+    min_quantity: 25,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "182345678000100",
+    product_ean: "7891001234597",
+    min_quantity: 15,
+    max_quantity: 110
+  },
+  {
+    place_cnpj: "182345678000100",
+    product_ean: "7891001234626",
+    min_quantity: 20,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "182345678000100",
+    product_ean: "7891001234655",
+    min_quantity: 30,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "182345678000100",
+    product_ean: "7891001234654",
+    min_quantity: 10,
+    max_quantity: 80
+  },
+  {
+    place_cnpj: "192345678000100",
+    product_ean: "7891001234572",
+    min_quantity: 15,
+    max_quantity: 90
+  },
+  {
+    place_cnpj: "192345678000100",
+    product_ean: "7891001234592",
+    min_quantity: 20,
+    max_quantity: 100
+  },
+  {
+    place_cnpj: "192345678000100",
+    product_ean: "7891001234654",
+    min_quantity: 40,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "192345678000100",
+    product_ean: "7891001234653",
+    min_quantity: 25,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "192345678000100",
+    product_ean: "7891001234652",
+    min_quantity: 30,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "202345678000100",
+    product_ean: "7891001234577",
+    min_quantity: 10,
+    max_quantity: 100
+  },
+  {
+    place_cnpj: "202345678000100",
+    product_ean: "7891001234608",
+    min_quantity: 15,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "202345678000100",
+    product_ean: "7891001234644",
+    min_quantity: 20,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "202345678000100",
+    product_ean: "7891001234651",
+    min_quantity: 30,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "202345678000100",
+    product_ean: "7891001234657",
+    min_quantity: 25,
+    max_quantity: 120
+  },
+  {
+    place_cnpj: "12345678000100",
+    product_ean: "7891001234787",
+    min_quantity: 20,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "12345678000100",
+    product_ean: "7891001234788",
+    min_quantity: 15,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "12345678000100",
+    product_ean: "7891001234789",
+    min_quantity: 25,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "12345678000100",
+    product_ean: "7891001234790",
+    min_quantity: 10,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "12345678000100",
+    product_ean: "7891001234791",
+    min_quantity: 30,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "22345678000100",
+    product_ean: "7891001234792",
+    min_quantity: 40,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "22345678000100",
+    product_ean: "7891001234793",
+    min_quantity: 20,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "22345678000100",
+    product_ean: "7891001234794",
+    min_quantity: 15,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "22345678000100",
+    product_ean: "7891001234795",
+    min_quantity: 30,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "22345678000100",
+    product_ean: "7891001234796",
+    min_quantity: 25,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "32345678000100",
+    product_ean: "7891001234697",
+    min_quantity: 10,
+    max_quantity: 120
+  },
+  {
+    place_cnpj: "32345678000100",
+    product_ean: "7891001234698",
+    min_quantity: 40,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "32345678000100",
+    product_ean: "7891001234699",
+    min_quantity: 30,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "32345678000100",
+    product_ean: "7891001234700",
+    min_quantity: 25,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "32345678000100",
+    product_ean: "7891001234701",
+    min_quantity: 15,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "42345678000100",
+    product_ean: "7891001234702",
+    min_quantity: 10,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "42345678000100",
+    product_ean: "7891001234703",
+    min_quantity: 20,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "42345678000100",
+    product_ean: "7891001234704",
+    min_quantity: 40,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "42345678000100",
+    product_ean: "7891001234705",
+    min_quantity: 30,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "42345678000100",
+    product_ean: "7891001234706",
+    min_quantity: 15,
+    max_quantity: 120
+  },
+  {
+    place_cnpj: "52345678000100",
+    product_ean: "7891001234707",
+    min_quantity: 25,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "52345678000100",
+    product_ean: "7891001234708",
+    min_quantity: 20,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "52345678000100",
+    product_ean: "7891001234709",
+    min_quantity: 40,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "52345678000100",
+    product_ean: "7891001234710",
+    min_quantity: 10,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "52345678000100",
+    product_ean: "7891001234711",
+    min_quantity: 15,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "62345678000100",
+    product_ean: "7891001234712",
+    min_quantity: 30,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "62345678000100",
+    product_ean: "7891001234713",
+    min_quantity: 25,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "62345678000100",
+    product_ean: "7891001234714",
+    min_quantity: 40,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "62345678000100",
+    product_ean: "7891001234715",
+    min_quantity: 20,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "62345678000100",
+    product_ean: "7891001234716",
+    min_quantity: 15,
+    max_quantity: 120
+  },
+  {
+    place_cnpj: "72345678000100",
+    product_ean: "7891001234717",
+    min_quantity: 10,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "72345678000100",
+    product_ean: "7891001234718",
+    min_quantity: 30,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "72345678000100",
+    product_ean: "7891001234719",
+    min_quantity: 20,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "72345678000100",
+    product_ean: "7891001234720",
+    min_quantity: 25,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "72345678000100",
+    product_ean: "7891001234721",
+    min_quantity: 40,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "82345678000100",
+    product_ean: "7891001234722",
+    min_quantity: 15,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "82345678000100",
+    product_ean: "7891001234723",
+    min_quantity: 30,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "82345678000100",
+    product_ean: "7891001234724",
+    min_quantity: 25,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "82345678000100",
+    product_ean: "7891001234725",
+    min_quantity: 40,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "82345678000100",
+    product_ean: "7891001234726",
+    min_quantity: 20,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "92345678000100",
+    product_ean: "7891001234727",
+    min_quantity: 10,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "92345678000100",
+    product_ean: "7891001234728",
+    min_quantity: 15,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "92345678000100",
+    product_ean: "7891001234729",
+    min_quantity: 40,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "92345678000100",
+    product_ean: "7891001234730",
+    min_quantity: 30,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "92345678000100",
+    product_ean: "7891001234731",
+    min_quantity: 20,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "102345678000100",
+    product_ean: "7891001234732",
+    min_quantity: 25,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "102345678000100",
+    product_ean: "7891001234733",
+    min_quantity: 30,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "102345678000100",
+    product_ean: "7891001234734",
+    min_quantity: 10,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "102345678000100",
+    product_ean: "7891001234735",
+    min_quantity: 40,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "102345678000100",
+    product_ean: "7891001234736",
+    min_quantity: 20,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "112345678000100",
+    product_ean: "7891001234737",
+    min_quantity: 15,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "112345678000100",
+    product_ean: "7891001234738",
+    min_quantity: 40,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "112345678000100",
+    product_ean: "7891001234739",
+    min_quantity: 25,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "112345678000100",
+    product_ean: "7891001234740",
+    min_quantity: 10,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "112345678000100",
+    product_ean: "7891001234741",
+    min_quantity: 30,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "122345678000100",
+    product_ean: "7891001234742",
+    min_quantity: 20,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "122345678000100",
+    product_ean: "7891001234743",
+    min_quantity: 15,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "122345678000100",
+    product_ean: "7891001234744",
+    min_quantity: 40,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "122345678000100",
+    product_ean: "7891001234745",
+    min_quantity: 30,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "122345678000100",
+    product_ean: "7891001234746",
+    min_quantity: 25,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "132345678000100",
+    product_ean: "7891001234747",
+    min_quantity: 10,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "132345678000100",
+    product_ean: "7891001234748",
+    min_quantity: 20,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "132345678000100",
+    product_ean: "7891001234749",
+    min_quantity: 15,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "132345678000100",
+    product_ean: "7891001234750",
+    min_quantity: 30,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "132345678000100",
+    product_ean: "7891001234751",
+    min_quantity: 40,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "142345678000100",
+    product_ean: "7891001234752",
+    min_quantity: 25,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "142345678000100",
+    product_ean: "7891001234753",
+    min_quantity: 10,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "142345678000100",
+    product_ean: "7891001234754",
+    min_quantity: 30,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "142345678000100",
+    product_ean: "7891001234755",
+    min_quantity: 15,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "142345678000100",
+    product_ean: "7891001234756",
+    min_quantity: 40,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "152345678000100",
+    product_ean: "7891001234757",
+    min_quantity: 20,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "152345678000100",
+    product_ean: "7891001234758",
+    min_quantity: 25,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "152345678000100",
+    product_ean: "7891001234759",
+    min_quantity: 40,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "152345678000100",
+    product_ean: "7891001234760",
+    min_quantity: 15,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "152345678000100",
+    product_ean: "7891001234761",
+    min_quantity: 10,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "162345678000100",
+    product_ean: "7891001234762",
+    min_quantity: 20,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "162345678000100",
+    product_ean: "7891001234763",
+    min_quantity: 30,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "162345678000100",
+    product_ean: "7891001234764",
+    min_quantity: 40,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "162345678000100",
+    product_ean: "7891001234765",
+    min_quantity: 15,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "162345678000100",
+    product_ean: "7891001234766",
+    min_quantity: 25,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "172345678000100",
+    product_ean: "7891001234767",
+    min_quantity: 10,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "172345678000100",
+    product_ean: "7891001234768",
+    min_quantity: 15,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "172345678000100",
+    product_ean: "7891001234769",
+    min_quantity: 40,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "172345678000100",
+    product_ean: "7891001234770",
+    min_quantity: 20,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "172345678000100",
+    product_ean: "7891001234771",
+    min_quantity: 25,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "182345678000100",
+    product_ean: "7891001234772",
+    min_quantity: 30,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "182345678000100",
+    product_ean: "7891001234773",
+    min_quantity: 15,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "182345678000100",
+    product_ean: "7891001234774",
+    min_quantity: 20,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "182345678000100",
+    product_ean: "7891001234775",
+    min_quantity: 25,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "182345678000100",
+    product_ean: "7891001234776",
+    min_quantity: 10,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "192345678000100",
+    product_ean: "7891001234777",
+    min_quantity: 40,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "192345678000100",
+    product_ean: "7891001234778",
+    min_quantity: 15,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "192345678000100",
+    product_ean: "7891001234779",
+    min_quantity: 30,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "192345678000100",
+    product_ean: "7891001234780",
+    min_quantity: 20,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "192345678000100",
+    product_ean: "7891001234781",
+    min_quantity: 10,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "202345678000100",
+    product_ean: "7891001234782",
+    min_quantity: 15,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "202345678000100",
+    product_ean: "7891001234783",
+    min_quantity: 40,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "202345678000100",
+    product_ean: "7891001234784",
+    min_quantity: 30,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "202345678000100",
+    product_ean: "7891001234785",
+    min_quantity: 20,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "202345678000100",
+    product_ean: "7891001234786",
+    min_quantity: 25,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "12345678000100",
+    product_ean: "7891001234697",
+    min_quantity: 10,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "12345678000100",
+    product_ean: "7891001234698",
+    min_quantity: 15,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "12345678000100",
+    product_ean: "7891001234699",
+    min_quantity: 20,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "12345678000100",
+    product_ean: "7891001234700",
+    min_quantity: 25,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "12345678000100",
+    product_ean: "7891001234701",
+    min_quantity: 30,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "22345678000100",
+    product_ean: "7891001234702",
+    min_quantity: 40,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "22345678000100",
+    product_ean: "7891001234703",
+    min_quantity: 15,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "22345678000100",
+    product_ean: "7891001234704",
+    min_quantity: 10,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "22345678000100",
+    product_ean: "7891001234705",
+    min_quantity: 30,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "22345678000100",
+    product_ean: "7891001234706",
+    min_quantity: 20,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "32345678000100",
+    product_ean: "7891001234707",
+    min_quantity: 25,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "32345678000100",
+    product_ean: "7891001234708",
+    min_quantity: 10,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "32345678000100",
+    product_ean: "7891001234709",
+    min_quantity: 15,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "32345678000100",
+    product_ean: "7891001234710",
+    min_quantity: 20,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "32345678000100",
+    product_ean: "7891001234711",
+    min_quantity: 40,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "42345678000100",
+    product_ean: "7891001234712",
+    min_quantity: 30,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "42345678000100",
+    product_ean: "7891001234713",
+    min_quantity: 25,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "42345678000100",
+    product_ean: "7891001234714",
+    min_quantity: 10,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "42345678000100",
+    product_ean: "7891001234715",
+    min_quantity: 15,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "42345678000100",
+    product_ean: "7891001234716",
+    min_quantity: 20,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "52345678000100",
+    product_ean: "7891001234717",
+    min_quantity: 40,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "52345678000100",
+    product_ean: "7891001234718",
+    min_quantity: 10,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "52345678000100",
+    product_ean: "7891001234719",
+    min_quantity: 30,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "52345678000100",
+    product_ean: "7891001234720",
+    min_quantity: 15,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "52345678000100",
+    product_ean: "7891001234721",
+    min_quantity: 25,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "62345678000100",
+    product_ean: "7891001234722",
+    min_quantity: 10,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "62345678000100",
+    product_ean: "7891001234723",
+    min_quantity: 40,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "62345678000100",
+    product_ean: "7891001234724",
+    min_quantity: 30,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "62345678000100",
+    product_ean: "7891001234725",
+    min_quantity: 25,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "62345678000100",
+    product_ean: "7891001234726",
+    min_quantity: 15,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "72345678000100",
+    product_ean: "7891001234727",
+    min_quantity: 10,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "72345678000100",
+    product_ean: "7891001234728",
+    min_quantity: 20,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "72345678000100",
+    product_ean: "7891001234729",
+    min_quantity: 30,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "72345678000100",
+    product_ean: "7891001234730",
+    min_quantity: 40,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "72345678000100",
+    product_ean: "7891001234731",
+    min_quantity: 15,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "82345678000100",
+    product_ean: "7891001234732",
+    min_quantity: 25,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "82345678000100",
+    product_ean: "7891001234733",
+    min_quantity: 10,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "82345678000100",
+    product_ean: "7891001234734",
+    min_quantity: 20,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "82345678000100",
+    product_ean: "7891001234735",
+    min_quantity: 30,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "82345678000100",
+    product_ean: "7891001234736",
+    min_quantity: 40,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "92345678000100",
+    product_ean: "7891001234737",
+    min_quantity: 15,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "92345678000100",
+    product_ean: "7891001234738",
+    min_quantity: 25,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "92345678000100",
+    product_ean: "7891001234739",
+    min_quantity: 10,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "92345678000100",
+    product_ean: "7891001234740",
+    min_quantity: 30,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "92345678000100",
+    product_ean: "7891001234741",
+    min_quantity: 20,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "102345678000100",
+    product_ean: "7891001234742",
+    min_quantity: 40,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "102345678000100",
+    product_ean: "7891001234743",
+    min_quantity: 15,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "102345678000100",
+    product_ean: "7891001234744",
+    min_quantity: 25,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "102345678000100",
+    product_ean: "7891001234745",
+    min_quantity: 30,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "102345678000100",
+    product_ean: "7891001234746",
+    min_quantity: 10,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "112345678000100",
+    product_ean: "7891001234747",
+    min_quantity: 20,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "112345678000100",
+    product_ean: "7891001234748",
+    min_quantity: 40,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "112345678000100",
+    product_ean: "7891001234749",
+    min_quantity: 10,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "112345678000100",
+    product_ean: "7891001234750",
+    min_quantity: 30,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "112345678000100",
+    product_ean: "7891001234751",
+    min_quantity: 25,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "122345678000100",
+    product_ean: "7891001234752",
+    min_quantity: 15,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "122345678000100",
+    product_ean: "7891001234753",
+    min_quantity: 20,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "122345678000100",
+    product_ean: "7891001234754",
+    min_quantity: 10,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "122345678000100",
+    product_ean: "7891001234755",
+    min_quantity: 25,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "122345678000100",
+    product_ean: "7891001234756",
+    min_quantity: 30,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "132345678000100",
+    product_ean: "7891001234757",
+    min_quantity: 40,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "132345678000100",
+    product_ean: "7891001234758",
+    min_quantity: 15,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "132345678000100",
+    product_ean: "7891001234759",
+    min_quantity: 20,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "132345678000100",
+    product_ean: "7891001234760",
+    min_quantity: 10,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "132345678000100",
+    product_ean: "7891001234761",
+    min_quantity: 25,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "142345678000100",
+    product_ean: "7891001234762",
+    min_quantity: 30,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "142345678000100",
+    product_ean: "7891001234763",
+    min_quantity: 40,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "142345678000100",
+    product_ean: "7891001234764",
+    min_quantity: 20,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "142345678000100",
+    product_ean: "7891001234765",
+    min_quantity: 15,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "142345678000100",
+    product_ean: "7891001234766",
+    min_quantity: 25,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "152345678000100",
+    product_ean: "7891001234767",
+    min_quantity: 30,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "152345678000100",
+    product_ean: "7891001234768",
+    min_quantity: 10,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "152345678000100",
+    product_ean: "7891001234769",
+    min_quantity: 40,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "152345678000100",
+    product_ean: "7891001234770",
+    min_quantity: 20,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "152345678000100",
+    product_ean: "7891001234771",
+    min_quantity: 25,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "162345678000100",
+    product_ean: "7891001234772",
+    min_quantity: 15,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "162345678000100",
+    product_ean: "7891001234773",
+    min_quantity: 40,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "162345678000100",
+    product_ean: "7891001234774",
+    min_quantity: 10,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "162345678000100",
+    product_ean: "7891001234775",
+    min_quantity: 30,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "162345678000100",
+    product_ean: "7891001234776",
+    min_quantity: 20,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "172345678000100",
+    product_ean: "7891001234777",
+    min_quantity: 25,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "172345678000100",
+    product_ean: "7891001234778",
+    min_quantity: 15,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "172345678000100",
+    product_ean: "7891001234779",
+    min_quantity: 30,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "172345678000100",
+    product_ean: "7891001234780",
+    min_quantity: 40,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "172345678000100",
+    product_ean: "7891001234781",
+    min_quantity: 10,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "182345678000100",
+    product_ean: "7891001234782",
+    min_quantity: 20,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "182345678000100",
+    product_ean: "7891001234783",
+    min_quantity: 25,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "182345678000100",
+    product_ean: "7891001234784",
+    min_quantity: 30,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "182345678000100",
+    product_ean: "7891001234785",
+    min_quantity: 40,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "182345678000100",
+    product_ean: "7891001234786",
+    min_quantity: 15,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "192345678000100",
+    product_ean: "7891001234787",
+    min_quantity: 10,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "192345678000100",
+    product_ean: "7891001234788",
+    min_quantity: 20,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "192345678000100",
+    product_ean: "7891001234789",
+    min_quantity: 30,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "192345678000100",
+    product_ean: "7891001234790",
+    min_quantity: 40,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "192345678000100",
+    product_ean: "7891001234791",
+    min_quantity: 25,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "202345678000100",
+    product_ean: "7891001234792",
+    min_quantity: 15,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "202345678000100",
+    product_ean: "7891001234793",
+    min_quantity: 10,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "202345678000100",
+    product_ean: "7891001234794",
+    min_quantity: 20,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "202345678000100",
+    product_ean: "7891001234795",
+    min_quantity: 30,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "202345678000100",
+    product_ean: "7891001234796",
+    min_quantity: 40,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "12345678000100",
+    product_ean: "7891001234579",
+    min_quantity: 10,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "12345678000100",
+    product_ean: "7891001234589",
+    min_quantity: 20,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "12345678000100",
+    product_ean: "7891001234612",
+    min_quantity: 15,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "12345678000100",
+    product_ean: "7891001234633",
+    min_quantity: 25,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "12345678000100",
+    product_ean: "7891001234655",
+    min_quantity: 30,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "22345678000100",
+    product_ean: "7891001234587",
+    min_quantity: 40,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "22345678000100",
+    product_ean: "7891001234600",
+    min_quantity: 10,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "22345678000100",
+    product_ean: "7891001234644",
+    min_quantity: 20,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "22345678000100",
+    product_ean: "7891001234622",
+    min_quantity: 15,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "22345678000100",
+    product_ean: "7891001234656",
+    min_quantity: 25,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "32345678000100",
+    product_ean: "7891001234577",
+    min_quantity: 30,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "32345678000100",
+    product_ean: "7891001234605",
+    min_quantity: 40,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "32345678000100",
+    product_ean: "7891001234628",
+    min_quantity: 10,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "32345678000100",
+    product_ean: "7891001234639",
+    min_quantity: 20,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "32345678000100",
+    product_ean: "7891001234650",
+    min_quantity: 15,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "42345678000100",
+    product_ean: "7891001234585",
+    min_quantity: 25,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "42345678000100",
+    product_ean: "7891001234608",
+    min_quantity: 30,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "42345678000100",
+    product_ean: "7891001234643",
+    min_quantity: 40,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "42345678000100",
+    product_ean: "7891001234657",
+    min_quantity: 20,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "42345678000100",
+    product_ean: "7891001234670",
+    min_quantity: 10,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "52345678000100",
+    product_ean: "7891001234591",
+    min_quantity: 15,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "52345678000100",
+    product_ean: "7891001234616",
+    min_quantity: 25,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "52345678000100",
+    product_ean: "7891001234654",
+    min_quantity: 30,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "52345678000100",
+    product_ean: "7891001234662",
+    min_quantity: 40,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "52345678000100",
+    product_ean: "7891001234689",
+    min_quantity: 20,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "62345678000100",
+    product_ean: "7891001234580",
+    min_quantity: 10,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "62345678000100",
+    product_ean: "7891001234597",
+    min_quantity: 30,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "62345678000100",
+    product_ean: "7891001234613",
+    min_quantity: 40,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "62345678000100",
+    product_ean: "7891001234634",
+    min_quantity: 20,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "62345678000100",
+    product_ean: "7891001234658",
+    min_quantity: 25,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "72345678000100",
+    product_ean: "7891001234571",
+    min_quantity: 15,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "72345678000100",
+    product_ean: "7891001234592",
+    min_quantity: 40,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "72345678000100",
+    product_ean: "7891001234603",
+    min_quantity: 30,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "72345678000100",
+    product_ean: "7891001234645",
+    min_quantity: 10,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "72345678000100",
+    product_ean: "7891001234666",
+    min_quantity: 20,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "82345678000100",
+    product_ean: "7891001234579",
+    min_quantity: 25,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "82345678000100",
+    product_ean: "7891001234602",
+    min_quantity: 15,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "82345678000100",
+    product_ean: "7891001234610",
+    min_quantity: 10,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "82345678000100",
+    product_ean: "7891001234636",
+    min_quantity: 30,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "82345678000100",
+    product_ean: "7891001234647",
+    min_quantity: 40,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "92345678000100",
+    product_ean: "7891001234585",
+    min_quantity: 20,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "92345678000100",
+    product_ean: "7891001234595",
+    min_quantity: 15,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "92345678000100",
+    product_ean: "7891001234620",
+    min_quantity: 40,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "92345678000100",
+    product_ean: "7891001234629",
+    min_quantity: 25,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "92345678000100",
+    product_ean: "7891001234648",
+    min_quantity: 30,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "102345678000100",
+    product_ean: "7891001234582",
+    min_quantity: 10,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "102345678000100",
+    product_ean: "7891001234609",
+    min_quantity: 15,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "102345678000100",
+    product_ean: "7891001234627",
+    min_quantity: 20,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "102345678000100",
+    product_ean: "7891001234638",
+    min_quantity: 40,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "102345678000100",
+    product_ean: "7891001234651",
+    min_quantity: 30,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "112345678000100",
+    product_ean: "7891001234573",
+    min_quantity: 10,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "112345678000100",
+    product_ean: "7891001234599",
+    min_quantity: 25,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "112345678000100",
+    product_ean: "7891001234618",
+    min_quantity: 20,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "112345678000100",
+    product_ean: "7891001234631",
+    min_quantity: 15,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "112345678000100",
+    product_ean: "7891001234640",
+    min_quantity: 30,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "122345678000100",
+    product_ean: "7891001234575",
+    min_quantity: 40,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "122345678000100",
+    product_ean: "7891001234614",
+    min_quantity: 10,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "122345678000100",
+    product_ean: "7891001234642",
+    min_quantity: 15,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "122345678000100",
+    product_ean: "7891001234649",
+    min_quantity: 20,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "122345678000100",
+    product_ean: "7891001234667",
+    min_quantity: 30,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "132345678000100",
+    product_ean: "7891001234583",
+    min_quantity: 25,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "132345678000100",
+    product_ean: "7891001234607",
+    min_quantity: 40,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "132345678000100",
+    product_ean: "7891001234623",
+    min_quantity: 10,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "132345678000100",
+    product_ean: "7891001234630",
+    min_quantity: 15,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "132345678000100",
+    product_ean: "7891001234652",
+    min_quantity: 30,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "142345678000100",
+    product_ean: "7891001234588",
+    min_quantity: 20,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "142345678000100",
+    product_ean: "7891001234598",
+    min_quantity: 40,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "142345678000100",
+    product_ean: "7891001234621",
+    min_quantity: 25,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "142345678000100",
+    product_ean: "7891001234635",
+    min_quantity: 30,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "142345678000100",
+    product_ean: "7891001234660",
+    min_quantity: 10,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "152345678000100",
+    product_ean: "7891001234572",
+    min_quantity: 15,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "152345678000100",
+    product_ean: "7891001234606",
+    min_quantity: 25,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "152345678000100",
+    product_ean: "7891001234619",
+    min_quantity: 40,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "152345678000100",
+    product_ean: "7891001234626",
+    min_quantity: 20,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "152345678000100",
+    product_ean: "7891001234646",
+    min_quantity: 30,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "162345678000100",
+    product_ean: "7891001234586",
+    min_quantity: 10,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "162345678000100",
+    product_ean: "7891001234601",
+    min_quantity: 15,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "162345678000100",
+    product_ean: "7891001234612",
+    min_quantity: 40,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "162345678000100",
+    product_ean: "7891001234641",
+    min_quantity: 30,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "162345678000100",
+    product_ean: "7891001234663",
+    min_quantity: 25,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "172345678000100",
+    product_ean: "7891001234576",
+    min_quantity: 20,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "172345678000100",
+    product_ean: "7891001234594",
+    min_quantity: 30,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "172345678000100",
+    product_ean: "7891001234615",
+    min_quantity: 40,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "172345678000100",
+    product_ean: "7891001234625",
+    min_quantity: 15,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "172345678000100",
+    product_ean: "7891001234653",
+    min_quantity: 25,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "182345678000100",
+    product_ean: "7891001234570",
+    min_quantity: 20,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "182345678000100",
+    product_ean: "7891001234590",
+    min_quantity: 30,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "182345678000100",
+    product_ean: "7891001234604",
+    min_quantity: 10,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "182345678000100",
+    product_ean: "7891001234617",
+    min_quantity: 40,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "182345678000100",
+    product_ean: "7891001234665",
+    min_quantity: 15,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "192345678000100",
+    product_ean: "7891001234567",
+    min_quantity: 25,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "192345678000100",
+    product_ean: "7891001234574",
+    min_quantity: 20,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "192345678000100",
+    product_ean: "7891001234611",
+    min_quantity: 40,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "192345678000100",
+    product_ean: "7891001234632",
+    min_quantity: 15,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "192345678000100",
+    product_ean: "7891001234659",
+    min_quantity: 30,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "202345678000100",
+    product_ean: "7891001234568",
+    min_quantity: 10,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "202345678000100",
+    product_ean: "7891001234596",
+    min_quantity: 40,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "202345678000100",
+    product_ean: "7891001234605",
+    min_quantity: 20,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "202345678000100",
+    product_ean: "7891001234624",
+    min_quantity: 30,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "202345678000100",
+    product_ean: "7891001234668",
+    min_quantity: 15,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "12345678000100",
+    product_ean: "7891001234676",
+    min_quantity: 10,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "12345678000100",
+    product_ean: "7891001234677",
+    min_quantity: 20,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "12345678000100",
+    product_ean: "7891001234678",
+    min_quantity: 15,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "12345678000100",
+    product_ean: "7891001234679",
+    min_quantity: 25,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "12345678000100",
+    product_ean: "7891001234680",
+    min_quantity: 30,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "22345678000100",
+    product_ean: "7891001234681",
+    min_quantity: 40,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "22345678000100",
+    product_ean: "7891001234682",
+    min_quantity: 10,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "22345678000100",
+    product_ean: "7891001234683",
+    min_quantity: 20,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "22345678000100",
+    product_ean: "7891001234684",
+    min_quantity: 15,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "22345678000100",
+    product_ean: "7891001234685",
+    min_quantity: 25,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "32345678000100",
+    product_ean: "7891001234686",
+    min_quantity: 30,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "32345678000100",
+    product_ean: "7891001234687",
+    min_quantity: 40,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "32345678000100",
+    product_ean: "7891001234688",
+    min_quantity: 10,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "32345678000100",
+    product_ean: "7891001234690",
+    min_quantity: 20,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "32345678000100",
+    product_ean: "7891001234691",
+    min_quantity: 15,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "42345678000100",
+    product_ean: "7891001234692",
+    min_quantity: 25,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "42345678000100",
+    product_ean: "7891001234693",
+    min_quantity: 30,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "42345678000100",
+    product_ean: "7891001234694",
+    min_quantity: 40,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "42345678000100",
+    product_ean: "7891001234695",
+    min_quantity: 20,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "42345678000100",
+    product_ean: "7891001234696",
+    min_quantity: 10,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "52345678000100",
+    product_ean: "7891001234697",
+    min_quantity: 15,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "52345678000100",
+    product_ean: "7891001234698",
+    min_quantity: 25,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "52345678000100",
+    product_ean: "7891001234699",
+    min_quantity: 30,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "52345678000100",
+    product_ean: "7891001234700",
+    min_quantity: 40,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "52345678000100",
+    product_ean: "7891001234701",
+    min_quantity: 20,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "62345678000100",
+    product_ean: "7891001234702",
+    min_quantity: 10,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "62345678000100",
+    product_ean: "7891001234703",
+    min_quantity: 30,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "62345678000100",
+    product_ean: "7891001234704",
+    min_quantity: 40,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "62345678000100",
+    product_ean: "7891001234705",
+    min_quantity: 20,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "62345678000100",
+    product_ean: "7891001234706",
+    min_quantity: 25,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "72345678000100",
+    product_ean: "7891001234707",
+    min_quantity: 15,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "72345678000100",
+    product_ean: "7891001234708",
+    min_quantity: 40,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "72345678000100",
+    product_ean: "7891001234709",
+    min_quantity: 30,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "72345678000100",
+    product_ean: "7891001234710",
+    min_quantity: 10,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "72345678000100",
+    product_ean: "7891001234711",
+    min_quantity: 20,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "82345678000100",
+    product_ean: "7891001234712",
+    min_quantity: 25,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "82345678000100",
+    product_ean: "7891001234713",
+    min_quantity: 15,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "82345678000100",
+    product_ean: "7891001234714",
+    min_quantity: 10,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "82345678000100",
+    product_ean: "7891001234715",
+    min_quantity: 30,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "82345678000100",
+    product_ean: "7891001234716",
+    min_quantity: 40,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "92345678000100",
+    product_ean: "7891001234717",
+    min_quantity: 20,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "92345678000100",
+    product_ean: "7891001234718",
+    min_quantity: 15,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "92345678000100",
+    product_ean: "7891001234719",
+    min_quantity: 40,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "92345678000100",
+    product_ean: "7891001234720",
+    min_quantity: 25,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "92345678000100",
+    product_ean: "7891001234721",
+    min_quantity: 30,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "102345678000100",
+    product_ean: "7891001234722",
+    min_quantity: 10,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "102345678000100",
+    product_ean: "7891001234723",
+    min_quantity: 15,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "102345678000100",
+    product_ean: "7891001234724",
+    min_quantity: 20,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "102345678000100",
+    product_ean: "7891001234725",
+    min_quantity: 40,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "102345678000100",
+    product_ean: "7891001234726",
+    min_quantity: 30,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "112345678000100",
+    product_ean: "7891001234727",
+    min_quantity: 10,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "112345678000100",
+    product_ean: "7891001234728",
+    min_quantity: 25,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "112345678000100",
+    product_ean: "7891001234729",
+    min_quantity: 20,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "112345678000100",
+    product_ean: "7891001234730",
+    min_quantity: 15,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "112345678000100",
+    product_ean: "7891001234731",
+    min_quantity: 30,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "122345678000100",
+    product_ean: "7891001234732",
+    min_quantity: 40,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "122345678000100",
+    product_ean: "7891001234733",
+    min_quantity: 10,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "122345678000100",
+    product_ean: "7891001234734",
+    min_quantity: 15,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "122345678000100",
+    product_ean: "7891001234735",
+    min_quantity: 20,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "122345678000100",
+    product_ean: "7891001234736",
+    min_quantity: 30,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "132345678000100",
+    product_ean: "7891001234737",
+    min_quantity: 25,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "132345678000100",
+    product_ean: "7891001234738",
+    min_quantity: 40,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "132345678000100",
+    product_ean: "7891001234739",
+    min_quantity: 10,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "132345678000100",
+    product_ean: "7891001234740",
+    min_quantity: 15,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "132345678000100",
+    product_ean: "7891001234741",
+    min_quantity: 30,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "142345678000100",
+    product_ean: "7891001234742",
+    min_quantity: 20,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "142345678000100",
+    product_ean: "7891001234743",
+    min_quantity: 40,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "142345678000100",
+    product_ean: "7891001234744",
+    min_quantity: 25,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "142345678000100",
+    product_ean: "7891001234745",
+    min_quantity: 30,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "142345678000100",
+    product_ean: "7891001234746",
+    min_quantity: 10,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "152345678000100",
+    product_ean: "7891001234747",
+    min_quantity: 15,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "152345678000100",
+    product_ean: "7891001234748",
+    min_quantity: 25,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "152345678000100",
+    product_ean: "7891001234749",
+    min_quantity: 40,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "152345678000100",
+    product_ean: "7891001234750",
+    min_quantity: 20,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "152345678000100",
+    product_ean: "7891001234751",
+    min_quantity: 30,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "162345678000100",
+    product_ean: "7891001234752",
+    min_quantity: 10,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "162345678000100",
+    product_ean: "7891001234753",
+    min_quantity: 15,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "162345678000100",
+    product_ean: "7891001234754",
+    min_quantity: 40,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "162345678000100",
+    product_ean: "7891001234755",
+    min_quantity: 30,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "162345678000100",
+    product_ean: "7891001234756",
+    min_quantity: 25,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "172345678000100",
+    product_ean: "7891001234757",
+    min_quantity: 20,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "172345678000100",
+    product_ean: "7891001234758",
+    min_quantity: 30,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "172345678000100",
+    product_ean: "7891001234759",
+    min_quantity: 40,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "172345678000100",
+    product_ean: "7891001234760",
+    min_quantity: 15,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "172345678000100",
+    product_ean: "7891001234761",
+    min_quantity: 25,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "182345678000100",
+    product_ean: "7891001234762",
+    min_quantity: 20,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "182345678000100",
+    product_ean: "7891001234763",
+    min_quantity: 30,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "182345678000100",
+    product_ean: "7891001234764",
+    min_quantity: 10,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "182345678000100",
+    product_ean: "7891001234765",
+    min_quantity: 40,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "182345678000100",
+    product_ean: "7891001234766",
+    min_quantity: 15,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "192345678000100",
+    product_ean: "7891001234767",
+    min_quantity: 25,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "192345678000100",
+    product_ean: "7891001234768",
+    min_quantity: 20,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "192345678000100",
+    product_ean: "7891001234769",
+    min_quantity: 40,
+    max_quantity: 200
+  },
+  {
+    place_cnpj: "192345678000100",
+    product_ean: "7891001234770",
+    min_quantity: 15,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "192345678000100",
+    product_ean: "7891001234771",
+    min_quantity: 30,
+    max_quantity: 180
+  },
+  {
+    place_cnpj: "202345678000100",
+    product_ean: "7891001234772",
+    min_quantity: 10,
+    max_quantity: 170
+  },
+  {
+    place_cnpj: "202345678000100",
+    product_ean: "7891001234773",
+    min_quantity: 40,
+    max_quantity: 150
+  },
+  {
+    place_cnpj: "202345678000100",
+    product_ean: "7891001234774",
+    min_quantity: 20,
+    max_quantity: 130
+  },
+  {
+    place_cnpj: "202345678000100",
+    product_ean: "7891001234775",
+    min_quantity: 30,
+    max_quantity: 140
+  },
+  {
+    place_cnpj: "202345678000100",
+    product_ean: "7891001234776",
+    min_quantity: 15,
+    max_quantity: 200
+  }
+];
+
 const purchase_orders = [
   {
     supplier_code: 3001,
@@ -3180,7 +6183,7 @@ suppliers.map((supplier) => {
 db.createCollection("places");
 db.getCollection("places").createIndex({ cnpj: 1 });
 db.getCollection("places").createIndex({ location: "2dsphere" });
-
+db.getCollection("places").createIndex({ "configurations.$**": 1 });
 
 places.map((place) => {
     db.getCollection("places").updateOne(
@@ -3191,6 +6194,31 @@ places.map((place) => {
 
     print(`Place '${place.name}' inserido ou atualizado com sucesso!`);
 });
+
+configurations
+  .map(config => ([
+    ["configurations", config.product_ean].join("."), // Cria o caminho dinâmico para o campo
+    config
+  ]))
+  .map(([path, config]) => ([
+    config.place_cnpj, // Chave para identificar o documento
+    path, // Caminho dinâmico no campo configurations
+    {
+      ean: config.product_ean, // Objeto com as propriedades necessárias
+      min: config.min_quantity,
+      max: config.max_quantity
+    }
+  ]))
+  .map(([key, path, value]) => {
+    db.getCollection("places").updateOne(
+      { cnpj: key }, // Filtro para encontrar o documento
+      { 
+        $set: { [path]: value } // Atualiza ou insere o valor no caminho dinâmico
+      }
+    );
+    print(`Configuração para o produto '${value.ean}' adicionada ao place '${key}'.`);
+  });
+
 
 db.createCollection("purchase_orders");
 db.getCollection("purchase_orders").createIndex({ "supplier.code": 1, "sold_at": -1, "expired_at": -1 });
@@ -3242,3 +6270,92 @@ employees
 
         print(`Funcionário '${employee.name}' inserido ou atualizado com sucesso!`);
     });
+
+
+
+db.createCollection("items");
+
+db.getCollection("purchase_orders")
+  .find()
+  .toArray()
+  .flatMap((order) => {
+    const quantity = order.quantity;
+
+    // Gera um número aleatório entre 0 e (quantity/2)
+    const randomOffset = Math.floor(Math.random() * (Math.floor(quantity / 2) + 1));
+    
+    // Quantos items efetivamente serão gerados
+    const itemsToGenerate = quantity - randomOffset;
+
+    // Retorna um array de length = itemsToGenerate,
+    // preenchido com o próprio "order" (para depois mapearmos)
+    return Array(itemsToGenerate).fill(order);
+  })
+  .map((order, index) => {
+    // Monta um RFID usando o _id do "order" e o index global do array
+    const code = `RFID-${order._id}-${index}`;
+
+    // Status aleatório (0 ou 1)
+    const itemStatus = Math.floor(Math.random() * 2);
+
+    db.getCollection("items").updateOne(
+      { code_rfid: code },
+      {
+        $set: {
+          code_rfid: code,
+          status: itemStatus,
+          order: order,    // Mantém o documento completo do pedido
+          transactions: [] // Array vazio de transações, a ser preenchido futuramente
+        }
+      },
+      { upsert: true }
+    );
+  });
+
+const savedPlaces = db.getCollection("places").find().toArray();
+
+const savedEmployees = db.getCollection("employees").find().toArray();
+
+db.getCollection("items")
+  .find()
+  .toArray()
+  .map((item) => {
+    const numTransactions = 1 + Math.floor(Math.random() * 5);
+
+    const newTransactions = Array(numTransactions)
+      .fill(null)
+      .map(() => {
+      // Seleciona um place e um employee aleatórios
+      const randomPlace = savedPlaces[Math.floor(Math.random() * savedPlaces.length)];
+      const randomEmployee = savedEmployees[Math.floor(Math.random() * savedEmployees.length)];
+
+      // Gera um intervalo aleatório de 0 a 364 dias atrás
+      const randomDays = Math.floor(Math.random() * 365);
+      const executedAt = new Date();
+      executedAt.setDate(executedAt.getDate() - randomDays);
+
+      return {
+        location: {
+          cnpj: randomPlace.cnpj
+        },
+        employee: {
+          cpf: randomEmployee.cpf,
+          name: randomEmployee.name
+        },
+        executed_at: executedAt
+      };
+    });
+
+    return [item, newTransactions];
+  })
+  .map(([item, newTransactions]) => {
+    // Realiza a atualização do item, adicionando todas as transações de uma só vez
+    db.getCollection("items").updateOne(
+      { code_rfid: item.code_rfid },
+      {
+        $push: {
+          transactions: { $each: newTransactions }
+        }
+      }
+    );
+  });
